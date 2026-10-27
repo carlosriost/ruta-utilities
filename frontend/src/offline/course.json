@@ -1,0 +1,1891 @@
+{
+ "phases": [
+  {
+   "id": 1,
+   "slug": "nivel-0",
+   "name": "Cimientos de seguridad",
+   "description": "Nivel 0 de VPO: lo mínimo que toda planta debe tener funcionando. Evaluación de riesgos, permisos, bloqueo de energías, protección y reporte de incidentes.",
+   "order_index": 0,
+   "unlock_threshold": 100,
+   "theme": "mint",
+   "icon": "shield",
+   "nodes": [
+    {
+     "id": 1,
+     "phase_id": 1,
+     "slug": "n0-seguridad-operacional",
+     "title": "Seguridad operacional",
+     "description": "Riesgos, PPE, permisos, izajes y temporales.",
+     "icon": "shield",
+     "order_index": 0,
+     "objective": "Conocer la base de la seguridad operacional VPO: evaluación de riesgos, PPE, permisos, izajes y trabajadores temporales.",
+     "body": "Este bloque es la base de todo lo demás: identificar los riesgos antes de trabajar, protegerte con el equipo correcto y no empezar una tarea peligrosa sin permiso.\n\nTres ideas para tu día a día:\n\n* Toda tarea debe estar evaluada. Si notas un peligro nuevo, repórtalo para que se actualice la evaluación.\n* Los PPE no son opcionales: salen de la evaluación de riesgos y de la ley.\n* Las tareas de alto riesgo (alturas, izajes no rutinarios, espacios confinados, energía eléctrica, NH3, vapor, químicos) siempre llevan permiso específico.\n\nSi trabajas con personal temporal, recuerda que solo puede hacer las tareas para las que fue formado.",
+     "vpo_block": "Operational Safety Management",
+     "requirements": [
+      {
+       "code": "R.1.1.2.1",
+       "title": "SOP de evaluación de riesgos implementado",
+       "detail": "La planta tiene un procedimiento que define la metodología y el proceso de evaluación de riesgos, vinculado con el MOC, el mapa de procesos y los inventarios. Cubre tareas (JHA), instalaciones, máquinas y factores humanos y psicosociales."
+      },
+      {
+       "code": "R.1.1.2.2",
+       "title": "Roles y formación en evaluación de riesgos",
+       "detail": "Los roles y responsabilidades están definidos y hay un programa de formación apoyado en SKAP. El refuerzo se hace al menos cada 3 años."
+      },
+      {
+       "code": "R.1.1.2.3",
+       "title": "Estrategia de evaluación de riesgos",
+       "detail": "Hay un plan para que todas las actividades, áreas y tareas queden evaluadas según el SOP, incluidos los factores humanos y psicosociales."
+      },
+      {
+       "code": "R.1.1.6.1",
+       "title": "Programa de PPE",
+       "detail": "Los PPE requeridos salen de la evaluación de riesgos y de la ley. Mínimos globales: calzado de seguridad en producción, chaleco reflectivo en logística, gafas donde hay vidrio y protección auditiva sobre el límite legal. El programa cubre selección, entrega, reposición, inspección y señalización."
+      },
+      {
+       "code": "R.1.1.6.2",
+       "title": "Programa de CPE",
+       "detail": "La protección colectiva (CPE) también se define por evaluación de riesgos y tiene proceso de selección, inspección, mantenimiento y señalización."
+      },
+      {
+       "code": "R.1.1.8.1",
+       "title": "SOP de permisos de trabajo",
+       "detail": "Define cuándo se necesita permiso general (siempre con contratistas) y cuándo uno específico para tareas de alto riesgo: alturas sobre 2 m, izajes no rutinarios, espacios confinados, trabajo eléctrico energizado o de alta tensión, trabajo en caliente en zonas explosivas, tareas no rutinarias en NH3, recipientes a presión, vapor y condensado, sustancias peligrosas, demolición y excavación. Incluye el permiso de apertura de línea para equipos con químicos, también diluidos como los del CIP."
+      },
+      {
+       "code": "R.1.1.8.2",
+       "title": "Roles y formación en permisos de trabajo",
+       "detail": "Formación avanzada para quienes emiten permisos y básica para todo el FLTM, contratistas y proveedores incluidos. Refuerzo al menos cada 3 años."
+      },
+      {
+       "code": "R.1.1.9.1",
+       "title": "SOP de izajes",
+       "detail": "Un procedimiento describe en detalle cómo controlar los riesgos de los izajes rutinarios y no rutinarios."
+      },
+      {
+       "code": "R.1.1.9.2",
+       "title": "Roles y formación en izajes",
+       "detail": "Los roles de izaje están definidos y la formación se verifica con SKAP y con los registros de entrenamiento."
+      },
+      {
+       "code": "R.1.1.11.1",
+       "title": "Supervisión de trabajadores temporales",
+       "detail": "Los temporales se supervisan con el monitoreo de seguridad rutinario, el sistema de compañero (buddy) y la seguridad territorial."
+      },
+      {
+       "code": "R.1.1.11.2",
+       "title": "Formación de trabajadores temporales",
+       "detail": "Reciben inducción general y formación por tarea, y solo se asignan a las tareas para las que fueron formados. Si la tarea tiene SKAP, este define la formación; si no, se hace una evaluación de riesgos."
+      },
+      {
+       "code": "R.1.1.11.3",
+       "title": "MOC al emplear temporales",
+       "detail": "Los cambios en la organización, la dotación o la forma de trabajar pasan por MOC. No hace falta MOC solo por cubrir una vacante que ya existe."
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "phase_id": 1,
+     "slug": "n0-reporte-incidentes",
+     "title": "Reporte de incidentes",
+     "description": "Qué se registra y en qué plazo.",
+     "icon": "file",
+     "order_index": 1,
+     "objective": "Saber qué eventos se registran en la herramienta global y en qué plazo.",
+     "body": "Un incidente que no se reporta no se puede investigar, y lo que no se investiga se repite.\n\nVPO exige que los eventos graves queden en la herramienta global de reporte de incidentes en un plazo máximo de 3 días:\n\n* Fatalidades y SIF (lesiones graves o fatales), reales o potenciales.\n* Precursores SIF: situaciones que pudieron terminar en una lesión grave.\n* TRI (lesiones registrables) y enfermedades ocupacionales.\n\nTu parte empieza antes: avisa de inmediato a tu líder cuando pase algo, aunque parezca menor.",
+     "vpo_block": "Incident Reporting & Management",
+     "requirements": [
+      {
+       "code": "R.1.2.1.1",
+       "title": "Registro en la herramienta global de incidentes",
+       "detail": "Fatalidades, SIF reales y potenciales, precursores SIF, TRI y enfermedades ocupacionales se registran en la herramienta global como máximo 3 días después del evento, con los días perdidos (LTI) o restringidos (MDI) correctos. Aplica a todo lo que ocurre en la planta y en las bodegas T1 conectadas."
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "phase_id": 1,
+     "slug": "n0-procesos-alto-riesgo",
+     "title": "Procesos de alto riesgo",
+     "description": "NH3, vapor, electricidad, presión, CO2 y N2.",
+     "icon": "flame",
+     "order_index": 2,
+     "objective": "Reconocer los procesos de alto riesgo de Utilities y las reglas básicas para intervenirlos.",
+     "body": "En Utilities convives con los procesos de mayor riesgo de la cervecería: amoníaco, vapor, electricidad, recipientes a presión, CO2 y N2.\n\nVPO los gestiona con reglas que no se negocian:\n\n* Nadie los interviene sin estar calificado. Los contratistas, además, aprueban una prueba básica antes de entrar.\n* Todo trabajo no rutinario lleva permiso específico y SAFE form.\n* Todo cambio pasa por MOC, salvo el reemplazo por una pieza idéntica.\n* Cerca del amoníaco llevas detector personal y radio, y sabes dónde están la ducha y el lavaojos.\n\nLos recipientes a presión y sus válvulas de alivio están inventariados y con inspección vigente.",
+     "vpo_block": "High Risk Processes Management",
+     "requirements": [
+      {
+       "code": "R.1.3.1.1",
+       "title": "Contratistas precalificados en procesos de alto riesgo",
+       "detail": "Quien trabaje en NH3, equipos con riesgo de explosión de polvo, vapor y agua caliente a alta presión (HPHW), sistemas eléctricos, recipientes a presión, gases y líquidos inflamables (FCGL) o CO2/N2 debe estar precalificado, inducido y supervisado, y aprobar antes una prueba básica de conocimiento."
+      },
+      {
+       "code": "R.1.3.1.2",
+       "title": "Permisos y SAFE form en trabajos no rutinarios",
+       "detail": "Todo trabajo no rutinario en estos procesos lleva permiso específico, permiso de apertura de línea y equipo cuando aplica, y SAFE form."
+      },
+      {
+       "code": "R.1.3.1.3",
+       "title": "MOC en procesos de alto riesgo",
+       "detail": "Todo cambio, grande o pequeño y también de automatización, se identifica, evalúa, autoriza y documenta con MOC. La única excepción es el reemplazo idéntico (replacement in kind)."
+      },
+      {
+       "code": "R.1.3.1.4",
+       "title": "Plan de emergencias para procesos de alto riesgo",
+       "detail": "Hay un plan actualizado, comunicado y practicado con simulacros para fugas de amoníaco, explosiones de polvo, fugas de vapor, incidentes eléctricos, explosión o implosión de recipientes, incendios de inflamables y liberación de CO2/N2."
+      },
+      {
+       "code": "R.1.3.1.5",
+       "title": "Roles y formación en procesos de alto riesgo",
+       "detail": "Operadores, técnicos, personal expuesto, PTE o coordinador PSM, brigadas y líderes tienen roles definidos y formación con SKAP, con refuerzo al menos cada 3 años."
+      },
+      {
+       "code": "R.1.3.2.2",
+       "title": "PPE, detectores y comunicación en NH3",
+       "detail": "Donde hay refrigeración con amoníaco hay PPE adecuado, detectores portátiles o personales de NH3, radios de dos vías y CPE como duchas de emergencia y lavaojos."
+      },
+      {
+       "code": "R.1.3.5.1",
+       "title": "Permiso eléctrico específico",
+       "detail": "Todo trabajo con circuitos energizados o de alta tensión requiere evaluación de riesgos y un permiso de trabajo eléctrico energizado validado por el ES Manager y el gerente eléctrico de la planta, y por ES y E&F de Zona."
+      },
+      {
+       "code": "R.1.3.6.1",
+       "title": "Inventario de recipientes a presión, PRV y VRV",
+       "detail": "Está al día el inventario de recipientes a presión, válvulas de alivio de presión (PRV) y de vacío (VRV), incluidos los discos de ruptura."
+      },
+      {
+       "code": "R.1.3.6.2",
+       "title": "Recipientes a presión inspeccionados y certificados",
+       "detail": "Recipientes, PRV, VRV y demás sistemas de seguridad se inspeccionan, calibran o certifican y mantienen según la ley, con los planes cargados en el sistema de órdenes de trabajo (SAP u otro)."
+      },
+      {
+       "code": "R.1.3.8.1",
+       "title": "Evaluación rápida de exposición a CO2 y N2",
+       "detail": "Un quick-scan determina si hay riesgo de exposición a niveles altos de CO2 o N2. Si lo hay, se evalúa a fondo, se monitorea y se controla con la jerarquía de controles."
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "phase_id": 1,
+     "slug": "n0-transporte-planta",
+     "title": "Transporte en planta",
+     "description": "Peatones, montacargas y camiones.",
+     "icon": "truck",
+     "order_index": 3,
+     "objective": "Aplicar las reglas VPO para convivir de forma segura con equipos de transporte.",
+     "body": "Montacargas, camiones y peatones compartiendo espacio es una de las combinaciones más peligrosas de una planta. Aunque tu trabajo esté en Utilities, cruzas bodegas y patios.\n\nVPO busca separar personas y máquinas, no confiar en que se vean a tiempo:\n\n* Camina solo por los pasillos peatonales protegidos.\n* Nunca entres a una zona roja de cargue.\n* Busca contacto visual con el conductor antes de cruzar.\n* Si conduces: cinturón puesto y nada de celular.",
+     "vpo_block": "Workplace Transport",
+     "requirements": [
+      {
+       "code": "R.1.4.1.3",
+       "title": "Reglas de operación de equipos de transporte",
+       "detail": "Hay reglas escritas para equipos motorizados y no motorizados: respetar flujos y velocidades, pitar y extremar la precaución en cruces, contacto visual, cinturón, nada de celular al conducir, respetar zonas rojas, estacionar en el sitio designado, inspección de 360°, conducir en reversa si la carga tapa la vista y respetar la regla de 1 metro."
+      },
+      {
+       "code": "R.1.4.1.7",
+       "title": "Roles y formación en transporte interno",
+       "detail": "Formación con SKAP para conductores, quienes cargan baterías o combustible, aseo, señaleros, almacenistas y técnicos de bodega, con refuerzo al menos cada 3 años."
+      },
+      {
+       "code": "R.1.4.1.8",
+       "title": "Eliminar la interacción peatón-montacargas",
+       "detail": "Peatones y equipos se separan con pasillos protegidos con barreras, bloqueo de áreas durante las tareas, horarios sin tráfico, zonas exclusivas, vehículos seguros para desplazarse y sistemas de detección de peatones."
+      },
+      {
+       "code": "R.1.4.1.9",
+       "title": "Procedimiento de cargue y descargue",
+       "detail": "El camión se bloquea con calzos y control de llaves (el montacarguista tiene el control) y no hay conductores ni ayudantes en la zona de cargue, por ejemplo con una política de zona roja."
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "phase_id": 1,
+     "slug": "n0-sustancias-peligrosas",
+     "title": "Sustancias peligrosas",
+     "description": "PPE, CPE, inventario y cambios.",
+     "icon": "flask",
+     "order_index": 4,
+     "objective": "Prepararte para manipular sustancias peligrosas según VPO.",
+     "body": "Soda cáustica, ácidos, desinfectantes del CIP, químicos de tratamiento de agua: en Utilities las sustancias peligrosas son parte del trabajo diario.\n\nVPO pide tres cosas básicas: saber qué sustancias hay y dónde (inventario con SDS), tener a mano la protección colectiva (ducha, lavaojos, kit antiderrames) y usar siempre el PPE para químicos, también con soluciones diluidas.\n\nOjo con los cambios: si falla la dosificación automática y toca dosificar a mano, eso ya es un cambio que requiere MOC.",
+     "vpo_block": "Hazardous Substances",
+     "requirements": [
+      {
+       "code": "R.1.6.1.1",
+       "title": "PPE para sustancias peligrosas",
+       "detail": "Para manipular, cargar, descargar, usar o muestrear sustancias peligrosas, y para mantener equipos que las contengan, se usa careta de cara completa, guantes, overol y botas resistentes a químicos. También con soluciones diluidas, como las del CIP."
+      },
+      {
+       "code": "R.1.6.1.2",
+       "title": "Cumplimiento legal en sustancias peligrosas",
+       "detail": "La planta identifica la legislación aplicable al transporte, almacenamiento y uso, y tiene los permisos, licencias, formación e inspecciones que exige."
+      },
+      {
+       "code": "R.1.6.1.3",
+       "title": "CPE para sustancias peligrosas",
+       "detail": "Donde se almacenan, cargan, usan o muestrean químicos hay duchas de emergencia, lavaojos, kits antiderrames y ventilación, inspeccionados y mantenidos."
+      },
+      {
+       "code": "R.1.6.1.4",
+       "title": "Inventario y plano de almacenamiento",
+       "detail": "Hay un inventario al día de todas las sustancias peligrosas (químicos CIP, aditivos, reactivos, inflamables, gases, solventes, residuos peligrosos, NH3 y otras) con proveedor, SDS, ubicación y cantidades, incluidas las que traen contratistas y operadores logísticos (3PL)."
+      },
+      {
+       "code": "R.1.6.1.5",
+       "title": "MOC para cambios en sustancias peligrosas",
+       "detail": "Pasan por MOC las sustancias nuevas y los cambios de concentración, proveedor, empaque, lugar de almacenamiento o uso, y pasar de un proceso rutinario a uno no rutinario, como dosificar a mano porque falló la dosificación automática."
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "phase_id": 1,
+     "slug": "n0-lototo",
+     "title": "LOTOTO y máquinas",
+     "description": "SAM, bloqueo de energías y jogging.",
+     "icon": "lock",
+     "order_index": 5,
+     "objective": "Dominar las reglas VPO de bloqueo de energías antes de intervenir un equipo.",
+     "body": "Bloquear las energías antes de intervenir un equipo es una de las reglas que más vidas salva en una planta industrial.\n\nVPO trabaja con dos procesos que debes saber distinguir:\n\n* SAM, con 6 pasos.\n* LOTOTO (Lock Out, Tag Out, Test Out), con 9 pasos: desenergizar, bloquear, etiquetar y comprobar que no queda energía.\n\nSolo bloquea quien está autorizado para esa energía y ese equipo. Si hay contratistas, primero bloquea AB InBev y después cada contratista pone su propio candado.",
+     "vpo_block": "LOTOTO and Machine Safety",
+     "requirements": [
+      {
+       "code": "R.1.7.1.1",
+       "title": "SOP general de SAM, LOTOTO y jogging",
+       "detail": "El procedimiento describe los 6 pasos de SAM, los 9 pasos de LOTOTO, la diferencia entre personal autorizado y afectado, el bloqueo múltiple, la entrega de turno y el jogging."
+      },
+      {
+       "code": "R.1.7.1.2",
+       "title": "AB InBev bloquea primero, el contratista agrega su candado",
+       "detail": "El personal autorizado de AB InBev hace el LOTOTO y luego cada contratista pone su propio candado. Excepciones: proveedores permanentes incluidos en la lista de autorizados y bloqueos que exigen una especialidad, como la acometida de alta tensión."
+      },
+      {
+       "code": "R.1.7.1.3",
+       "title": "Formación teórica y práctica en SAM y LOTOTO",
+       "detail": "Líderes, operadores y técnicos reciben formación teórica y práctica con SKAP. Deben distinguir SAM de LOTOTO, explicar sus pasos y el jogging. Refuerzo al menos cada 3 años."
+      },
+      {
+       "code": "R.1.7.1.4",
+       "title": "Lista de personal autorizado para LOTOTO",
+       "detail": "La lista indica para qué energías (eléctrica, mecánica, NH3...) y qué grupos de equipos está autorizada cada persona. Un proveedor solo entra a la lista si completó la formación de LOTOTO y SAM."
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "phase_id": 1,
+     "slug": "n0-trabajo-alturas",
+     "title": "Trabajo en alturas",
+     "description": "Permiso y protección desde 2 metros.",
+     "icon": "mountain",
+     "order_index": 6,
+     "objective": "Aplicar la regla de los 2 metros en permisos y protección contra caídas.",
+     "body": "Las caídas de altura están entre las principales causas de lesiones graves y fatales en la industria.\n\nEn VPO el número clave es 2 metros:\n\n* Desde 2 m (o menos si la ley local lo pide) se necesita permiso de trabajo.\n* Desde 2 m se usa siempre protección contra caídas, también los contratistas.\n\nSubir a un techo, aunque sea solo para inspeccionar o limpiar canales, también requiere evaluación de riesgos, método de trabajo y permiso.",
+     "vpo_block": "Working at heights",
+     "requirements": [
+      {
+       "code": "R.1.8.1.1",
+       "title": "Permiso de trabajo en alturas",
+       "detail": "Se requiere permiso para trabajar junto a desniveles de más de 2 m (o menos si la ley lo exige), armar, modificar, desarmar o usar andamios, usar plataformas elevadoras y acceder a techos. Hay excepciones puntuales para personal propio formado que figure en una lista."
+      },
+      {
+       "code": "R.1.8.1.3",
+       "title": "Protección contra caídas desde 2 metros",
+       "detail": "Todo el FLTM, contratistas incluidos, usa protección contra caídas en cualquier trabajo a más de 2 m, o menos si la ley lo exige."
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "phase_id": 1,
+     "slug": "n0-espacios-confinados",
+     "title": "Espacios confinados",
+     "description": "Permiso, supervisión y rescate.",
+     "icon": "cylinder",
+     "order_index": 7,
+     "objective": "Entrar y supervisar espacios confinados con las reglas VPO.",
+     "body": "Tanques, cisternas, fosos, torres de enfriamiento: en Utilities abundan los espacios confinados. Adentro puede faltar oxígeno, acumularse gases o ser muy difícil salir o rescatar a alguien.\n\nLas reglas VPO son claras:\n\n* Nunca se entra sin permiso de trabajo.\n* Nunca se deja a alguien adentro sin supervisión permanente.\n* Hay un equipo de rescate formado que practica al menos una vez al año.\n* Todos los espacios confinados están identificados y rotulados.",
+     "vpo_block": "Confined Spaces",
+     "requirements": [
+      {
+       "code": "R.1.10.1.1",
+       "title": "Permiso para entrar a espacios confinados",
+       "detail": "Toda entrada a un espacio confinado requiere permiso de trabajo."
+      },
+      {
+       "code": "R.1.10.1.2",
+       "title": "Supervisión permanente y rescate",
+       "detail": "Mientras haya alguien adentro, la supervisión es permanente e incluye apoyo de emergencia. Hay un equipo de rescate formado y al menos un simulacro de rescate al año."
+      },
+      {
+       "code": "R.1.10.1.3",
+       "title": "Inventario y programa de espacios confinados",
+       "detail": "Una evaluación de riesgos identifica todos los espacios confinados, también los que podrían llegar a serlo, y da lugar a un inventario y un SOP. Todos están rotulados."
+      },
+      {
+       "code": "R.1.10.1.4",
+       "title": "Roles y formación en espacios confinados",
+       "detail": "Quienes entran, supervisan o responden a emergencias tienen formación con SKAP, con refuerzo al menos cada 3 años."
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "phase_id": 1,
+     "slug": "n0-emergencias",
+     "title": "Emergencias",
+     "description": "Roles y formación para responder.",
+     "icon": "siren",
+     "order_index": 8,
+     "objective": "Saber quién se forma en respuesta a emergencias y con qué roles.",
+     "body": "En una emergencia no hay tiempo para aprender: cada persona debe saber de antemano qué le toca hacer.\n\nVPO exige roles definidos y formación para tres grupos:\n\n* Todo el FLTM, sin excepción.\n* Quienes tienen un rol específico: brigada, evacuación, primeros auxilios y corte de energías.\n* Los líderes.\n\nEn Utilities el corte de energías es un rol crítico. Pregunta a tu líder cuál es el tuyo.",
+     "vpo_block": "Emergency Preparedness and Response",
+     "requirements": [
+      {
+       "code": "R.1.11.1.3",
+       "title": "Roles y formación en respuesta a emergencias",
+       "detail": "Los roles de emergencia están definidos y hay formación con SKAP para todo el FLTM, para quienes tienen un rol específico (brigada, evacuación, primeros auxilios, corte de energías) y para los líderes. Refuerzo al menos cada 3 años."
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "phase_id": 1,
+     "slug": "n0-contratistas",
+     "title": "Contratistas",
+     "description": "Los 10 pasos de la gestión de contratistas.",
+     "icon": "users",
+     "order_index": 9,
+     "objective": "Conocer los 10 pasos VPO para trabajar con contratistas de forma segura.",
+     "body": "Muchos trabajos de alto riesgo en Utilities los hacen contratistas: reparación de calderas, montaje de tuberías, trabajos eléctricos. Su seguridad también es responsabilidad de la planta.\n\nVPO organiza la gestión de contratistas en 10 pasos. Los que más vas a ver:\n\n* Paso 4: nadie trabaja sin inducción general y de su tarea.\n* Paso 6: siempre hay supervisión, también de noche, fines de semana y festivos.\n* Paso 7: permiso general para todo trabajo y permiso específico para las tareas críticas.\n* Paso 8: charla de seguridad (toolbox) antes de empezar.",
+     "vpo_block": "Contractor and Service Providers Management",
+     "requirements": [
+      {
+       "code": "R.1.12.1.1",
+       "title": "Permiso general para trabajos de contratistas",
+       "detail": "Antes de empezar se revisan el plan de seguridad y el método de trabajo, y se emite un permiso general o documento de inicio. Un proveedor permanente (por ejemplo, de montacargas) no lo necesita; uno que viene cada 2 semanas (por ejemplo, control de plagas) sí."
+      },
+      {
+       "code": "R.1.12.1.2",
+       "title": "Permiso específico para tareas críticas (paso 7)",
+       "detail": "Además del permiso general, las tareas críticas tienen permiso específico, alineado con el plan de seguridad y el método de trabajo."
+      },
+      {
+       "code": "R.1.12.1.3",
+       "title": "Inducción general y por tarea (paso 4)",
+       "detail": "Contratistas y proveedores reciben inducción general de seguridad y otra específica de su tarea. Los visitantes reciben inducción general."
+      },
+      {
+       "code": "R.1.12.1.4",
+       "title": "Supervisión de seguridad (paso 6)",
+       "detail": "Hay supervisión en todo momento, también de noche, fines de semana y festivos: supervisión para todo trabajo de contratistas, permanente en tareas críticas y una estructura de seguridad en proyectos grandes."
+      },
+      {
+       "code": "R.1.12.1.5",
+       "title": "SOP de contratistas con 10 pasos",
+       "detail": "1 comunicación entre áreas, 2 precalificación, 3 plan de seguridad y método de trabajo, 4 inducción, 5 verificación de competencias y equipos, 6 supervisión, 7 permisos de trabajo, 8 charlas de seguridad y carteleras, 9 inspecciones y auditorías, 10 evaluación final."
+      },
+      {
+       "code": "R.1.12.1.6",
+       "title": "Verificación de competencias (paso 5)",
+       "detail": "Se valida y documenta la formación y certificación en tareas especializadas: espacios confinados, andamios, plataformas, grúas, montacargas, soldadura, procesos de alto riesgo, fuentes radiactivas o retiro de asbesto, entre otras."
+      },
+      {
+       "code": "R.1.12.1.7",
+       "title": "Última verificación en tareas críticas",
+       "detail": "Justo antes de una tarea crítica se hace una última verificación en el sitio de trabajo."
+      },
+      {
+       "code": "R.1.12.1.8",
+       "title": "Formación de quienes gestionan contratistas",
+       "detail": "Quienes contratan, inducen y supervisan contratistas, los gerentes de proyecto y los planeadores de mantenimiento tienen formación con SKAP, con refuerzo al menos cada 3 años."
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "phase_id": 1,
+     "slug": "n0-gestion-sif",
+     "title": "Gestión SIF",
+     "description": "Reglas que Salvan Vidas.",
+     "icon": "warning",
+     "order_index": 10,
+     "objective": "Aplicar las Reglas que Salvan Vidas incluso cuando algo dificulta cumplirlas.",
+     "body": "SIF significa lesión grave o fatal (Serious Injury or Fatality). Las Reglas que Salvan Vidas existen porque cada una responde a situaciones que ya le costaron la vida a alguien.\n\nVPO espera que puedas explicar de cada regla:\n\n* Por qué existe.\n* Qué peligro controla y qué medida la cumple.\n* Qué consecuencias tiene no aplicarla.\n\nSi algo te impide cumplir una regla (falta un candado, no hay arnés), repórtalo: la planta debe resolverlo de inmediato.",
+     "vpo_block": "SIF Management",
+     "requirements": [
+      {
+       "code": "R.1.14.1.1",
+       "title": "Reglas que Salvan Vidas",
+       "detail": "Las Reglas que Salvan Vidas (Life Saving Rules) se comunican en carteleras, inducción y formación, junto con las consecuencias disciplinarias. El FLTM sabe explicar por qué existen, qué peligros controlan y qué pasa si no se aplican. La planta identifica y elimina lo que impide cumplirlas."
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "phase_id": 1,
+     "slug": "n0-monitoreo-coaching",
+     "title": "Monitoreo y coaching",
+     "description": "Ninguna área ni turno sin cubrir.",
+     "icon": "eye",
+     "order_index": 11,
+     "objective": "Entender cómo funciona el monitoreo de seguridad y qué son las zonas grises.",
+     "body": "El monitoreo de seguridad no busca culpables: es la presencia de los líderes en planta para ver cómo se trabaja, reconocer lo que se hace bien y corregir a tiempo.\n\nLa clave de VPO son las zonas grises: ningún área ni turno puede quedar sin cubrir. Eso incluye la noche, el fin de semana y los periodos de baja actividad, justo cuando en Utilities suele haber menos gente y más mantenimiento.",
+     "vpo_block": "Safety Monitoring & Coaching",
+     "requirements": [
+      {
+       "code": "R.1.16.1.1",
+       "title": "Programa de monitoreo y coaching de seguridad",
+       "detail": "Los líderes siguen una matriz de monitoreo que cubre todas las áreas y turnos, también noches, fines de semana y periodos de baja actividad (sin zonas grises). Define frecuencias, incluye salud ocupacional y conversaciones de seguridad con coaching y reconocimiento."
+      },
+      {
+       "code": "R.1.16.1.2",
+       "title": "Roles y formación en monitoreo y coaching",
+       "detail": "Quienes participan en el monitoreo y coaching tienen roles definidos y formación con SKAP, con refuerzo al menos cada 3 años."
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "phase_id": 1,
+     "slug": "n0-cultura-seguridad",
+     "title": "Cultura de seguridad",
+     "description": "Comportamiento y Política Global.",
+     "icon": "handshake",
+     "order_index": 12,
+     "objective": "Entender el papel del comportamiento y de la Política Global de Seguridad.",
+     "body": "Las normas y los equipos de protección controlan muchos riesgos, pero al final cada persona decide cómo trabaja.\n\nPor eso VPO pide dos cosas desde el nivel 0:\n\n* Formación en seguridad basada en el comportamiento para todos, con refuerzo al menos cada 3 años.\n* Conocer la Política Global de Seguridad de AB InBev, que se presenta desde la inducción y guía la mejora continua de condiciones y comportamientos.\n\nPregúntate: ¿sabrías explicar la política de seguridad con tus palabras a alguien que acaba de llegar?",
+     "vpo_block": "Behavioral Safety Culture",
+     "requirements": [
+      {
+       "code": "R.1.17.1.1",
+       "title": "Formación en seguridad basada en el comportamiento",
+       "detail": "Todos los empleados reciben formación en seguridad basada en el comportamiento con SKAP, con roles definidos y refuerzo al menos cada 3 años."
+      },
+      {
+       "code": "R.1.17.2.1",
+       "title": "Política Global de Seguridad",
+       "detail": "La Política Global de Seguridad de AB InBev es la base de la gestión de seguridad de la planta, forma parte de la inducción y el FLTM la conoce."
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "phase_id": 1,
+     "slug": "n0-cumplimiento-legal",
+     "title": "Cumplimiento legal",
+     "description": "Requisitos legales, licencias y permisos.",
+     "icon": "scale",
+     "order_index": 13,
+     "objective": "Reconocer que detrás de muchos registros e inspecciones hay una obligación legal.",
+     "body": "Cumplir la ley es el piso, no el techo. VPO pide que la planta sepa exactamente qué requisitos legales de seguridad y salud en el trabajo le aplican, incluidos los que vienen con sus licencias y permisos.\n\nEn Utilities muchas de estas obligaciones te tocan de cerca: inspección de recipientes a presión, trabajo en alturas, manejo de químicos, exposición al ruido.\n\nCuando un procedimiento te pide un registro, una inspección o una certificación, muchas veces detrás hay un requisito legal.",
+     "vpo_block": "Facility compliance",
+     "requirements": [
+      {
+       "code": "R.1.18.1.1",
+       "title": "Requisitos legales de seguridad y salud identificados",
+       "detail": "La planta identifica los requisitos legales de seguridad y salud en el trabajo que le aplican, incluidos los de sus licencias y permisos."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "slug": "nivel-1",
+   "name": "Control del riesgo",
+   "description": "Nivel 1 de VPO: los procesos funcionan y se controlan. Toolkits de alto riesgo, SAFE form, investigación de incidentes, químicos y seguridad territorial.",
+   "order_index": 1,
+   "unlock_threshold": 90,
+   "theme": "sky",
+   "icon": "gauge",
+   "nodes": [
+    {
+     "id": 15,
+     "phase_id": 2,
+     "slug": "n1-seguridad-operacional",
+     "title": "Seguridad operacional",
+     "description": "SAFE form, inventarios, izajes y trabajo en solitario.",
+     "icon": "shield",
+     "order_index": 0,
+     "objective": "Aplicar las herramientas del nivel 1 para controlar el riesgo en las tareas del día a día.",
+     "body": "En el nivel 1 la planta ya no solo tiene procedimientos: los usa para controlar el riesgo todos los días.\n\nLo que cambia para ti:\n\n* Toda tarea no rutinaria, sobre todo de mantenimiento, empieza con un SAFE form.\n* Debes poder explicar los riesgos de tu área y cómo se controlan.\n* Antes de usar un equipo de izaje lo revisas; además, tiene inspección formal anual.\n* Si trabajas solo, por ejemplo en una ronda nocturna, debe haber comunicación, verificaciones o alarmas definidas en un SOP.",
+     "vpo_block": "Operational Safety Management",
+     "requirements": [
+      {
+       "code": "R.1.1.2.6",
+       "title": "SAFE form en tareas no rutinarias",
+       "detail": "Toda actividad no rutinaria, también de contratistas y proveedores, usa SAFE form, con foco en mantenimiento y en tareas de alto riesgo SIF."
+      },
+      {
+       "code": "R.1.1.2.7",
+       "title": "Inventarios al día",
+       "detail": "Hay inventarios actualizados de sustancias peligrosas, espacios confinados y sus equipos, máquinas fijas, torres de enfriamiento y condensadores evaporativos, equipos para trabajo en alturas, techos, equipos de transporte y herramientas eléctricas portátiles."
+      },
+      {
+       "code": "R.1.1.2.8",
+       "title": "Los gerentes son dueños de la evaluación de riesgos",
+       "detail": "Revisan las evaluaciones y SOP existentes, evalúan equipos y procesos nuevos como parte del MOC y actualizan las evaluaciones cuando aparecen peligros nuevos."
+      },
+      {
+       "code": "R.1.1.2.9",
+       "title": "El FLTM conoce sus riesgos y controles",
+       "detail": "El FLTM, contratistas y proveedores incluidos, sabe explicar los riesgos de su área o tarea y las medidas que los controlan."
+      },
+      {
+       "code": "R.1.1.3.1",
+       "title": "Equipos de seguridad certificados",
+       "detail": "Solo se usan equipos de seguridad certificados según normas ISO, IEC o nacionales equivalentes: válvulas de seguridad, paneles de alivio de explosión, detectores, cortinas de luz, PLC de seguridad, PPE, componentes eléctricos, herramientas manuales y equipos de izaje. Las brechas se cierran con un plan."
+      },
+      {
+       "code": "R.1.1.3.2",
+       "title": "Sueño y estrategia de seguridad",
+       "detail": "La planta define su sueño y estrategia de seguridad, alineados con la Zona y Global, y los convierte en programas, proyectos y planes de acción."
+      },
+      {
+       "code": "R.1.1.5.1",
+       "title": "GTS para equipos nuevos y usados",
+       "detail": "Las especificaciones técnicas globales (GTS) se aplican en la compra y puesta en marcha de equipos nuevos o de segunda mano, también si se trasladan entre plantas o dentro de la planta, y en edificios, áreas y procesos nuevos."
+      },
+      {
+       "code": "R.1.1.8.4",
+       "title": "Lista de autorizados para permisos de trabajo",
+       "detail": "Existe y está al día la lista de personas autorizadas en el proceso de permisos de trabajo."
+      },
+      {
+       "code": "R.1.1.9.3",
+       "title": "Equipos de izaje en buen estado",
+       "detail": "Todos los equipos de izaje (grúas, polipastos, eslingas, puntos de anclaje, entre otros) están inventariados, rotulados y ordenados (5S), con inspección formal al menos anual y revisión antes de cada uso."
+      },
+      {
+       "code": "R.1.1.9.4",
+       "title": "Izajes no rutinarios de contratistas",
+       "detail": "Tienen plan de seguridad y método de trabajo, también cerca de líneas eléctricas. Los contratistas están precalificados, inducidos, supervisados y aprueban una prueba básica."
+      },
+      {
+       "code": "R.1.1.11.4",
+       "title": "Seguridad en el contrato con la agencia de temporales",
+       "detail": "No hay temporales sin contrato. El contrato describe área, tareas y equipos, peligros y medidas preventivas, vigilancia de salud y competencias requeridas."
+      },
+      {
+       "code": "R.1.1.12.1",
+       "title": "Trabajo en solitario",
+       "detail": "Una evaluación identifica las tareas que se hacen en solitario y si es seguro hacerlas así. Los controles quedan en un SOP: comunicación, verificaciones periódicas, localización, alarmas de hombre caído o sin movimiento, formación, PPE y primeros auxilios."
+      }
+     ]
+    },
+    {
+     "id": 16,
+     "phase_id": 2,
+     "slug": "n1-reporte-incidentes",
+     "title": "Reporte de incidentes",
+     "description": "24 horas, 7 días y Guardians.",
+     "icon": "file",
+     "order_index": 1,
+     "objective": "Conocer los plazos de notificación e investigación y qué se reporta en Guardians.",
+     "body": "En el nivel 1 el reporte deja de ser solo un registro: se convierte en aprendizaje con plazos claros.\n\n* 24 horas: notificación de fatalidades, SIF reales y potenciales y TRI.\n* 7 días: investigación, análisis de causa raíz (RCA) y plan de acción.\n* Las acciones se definen con la jerarquía de controles y se siguen hasta cerrarse.\n\nPara ti lo más importante: los casi accidentes, las condiciones inseguras y los comportamientos de riesgo también se reportan en Guardians. Cada reporte puede evitar una lesión.",
+     "vpo_block": "Incident Reporting & Management",
+     "requirements": [
+      {
+       "code": "R.1.2.1.3",
+       "title": "Notificación en 24 horas",
+       "detail": "El gerente del área notifica en 24 horas a Seguridad de Zona y Global cada fatalidad, SIF real, TRI y SIF potencial. Las fatalidades y los SIF reales se informan de inmediato al VP de Supply de Zona y a los directores de Seguridad de Zona y Global."
+      },
+      {
+       "code": "R.1.2.1.4",
+       "title": "Investigación en 7 días",
+       "detail": "Cada fatalidad, SIF real, TRI y SIF potencial tiene investigación, análisis de causa raíz (RCA) y plan de acción en 7 días, con participación del FLTM y del afectado si es posible. Para FAI y precursores SIF se usa al menos el Problem Terminator o una herramienta de Zona similar."
+      },
+      {
+       "code": "R.1.2.1.5",
+       "title": "Seguimiento de las acciones del RCA",
+       "detail": "Las acciones correctivas se definen con la jerarquía de controles, cubren los bloques VPO relevantes y se siguen hasta cerrarse."
+      },
+      {
+       "code": "R.1.2.1.6",
+       "title": "Casi accidentes y condiciones inseguras en Guardians",
+       "detail": "Casi accidentes, condiciones y comportamientos inseguros y lesiones de primeros auxilios (FAI) se reportan en un sistema auditable. Guardians es la herramienta oficial donde ya está implementada."
+      }
+     ]
+    },
+    {
+     "id": 17,
+     "phase_id": 2,
+     "slug": "n1-procesos-alto-riesgo",
+     "title": "Procesos de alto riesgo",
+     "description": "Toolkits, NH3, vapor, presión e inflamables.",
+     "icon": "flame",
+     "order_index": 2,
+     "objective": "Entender cómo VPO controla los procesos de alto riesgo de Utilities en el nivel 1.",
+     "body": "Este es el bloque más grande del nivel 1 y el más cercano a Utilities.\n\nVPO mide cada proceso de alto riesgo con un toolkit: PSM NH3 (amoníaco), DEPSM (explosión de polvo), SSM (vapor) y ESM (seguridad eléctrica). En el nivel 1 cada uno debe estar en 60% o más, con un plan para cerrar las brechas.\n\nEn tu trabajo diario esto se traduce en:\n\n* Tuberías, equipos y áreas señalizados con sus peligros y qué hacer en una emergencia.\n* Equipos de NH3 fuera de servicio vaciados, desconectados y señalizados.\n* Prevención del golpe de ariete en vapor y condensado.\n* Recipientes a presión gestionados según la norma más estricta: la ley o AB InBev.",
+     "vpo_block": "High Risk Processes Management",
+     "requirements": [
+      {
+       "code": "R.1.3.1.6",
+       "title": "Señalización de procesos de alto riesgo",
+       "detail": "Tuberías, equipos y áreas de NH3, polvo explosivo, vapor y HPHW, electricidad, recipientes a presión (con número de equipo y fecha de calibración de PRV y VRV), inflamables y CO2/N2 están identificados, con información de peligros, medidas y respuesta a emergencias."
+      },
+      {
+       "code": "R.1.3.1.7",
+       "title": "Toolkit PSM NH3 en 60% o más",
+       "detail": "El toolkit de gestión de seguridad de procesos con amoníaco está en al menos 60%, con un plan con fechas (glidepath) para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.9",
+       "title": "Toolkit DEPSM en 60% o más",
+       "detail": "El toolkit de prevención de explosiones de polvo está en al menos 60%, con glidepath para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.11",
+       "title": "Toolkit SSM en 60% o más",
+       "detail": "El toolkit de gestión de seguridad en vapor está en al menos 60%, con glidepath para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.12",
+       "title": "Toolkit ESM en 60% o más",
+       "detail": "El toolkit de gestión de seguridad eléctrica está en al menos 60%, con glidepath para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.13",
+       "title": "Plan de acción de procesos de alto riesgo",
+       "detail": "Un plan único cubre PSM NH3, DEPSM, SSM, ESM, recipientes a presión y CO2/N2, a partir de evaluaciones de riesgo, incidentes, RCA, auditorías, cambios legales, MOC y evaluaciones VPO, con glidepaths validados por la Zona."
+      },
+      {
+       "code": "R.1.3.2.4",
+       "title": "Equipos de NH3 en reserva y fuera de servicio",
+       "detail": "Los equipos de reserva se evalúan, monitorean, inspeccionan y mantienen. Los que quedan fuera de servicio se vacían por completo, se desconectan mecánica y eléctricamente y se señalizan."
+      },
+      {
+       "code": "R.1.3.2.7",
+       "title": "Integridad mecánica del sistema de NH3",
+       "detail": "Hay un programa de inspección, pruebas, mantenimiento preventivo e integridad mecánica, cargado en el sistema de órdenes de trabajo, para mantener el sistema sin fugas y en condición segura."
+      },
+      {
+       "code": "R.1.3.3.1",
+       "title": "Evaluación de riesgo de explosión de polvo",
+       "detail": "Un quick-scan identifica si se procesan materiales que puedan generar explosiones de polvo. Si es así (siempre con cereales o biomasa), se hace una evaluación a fondo con PHA y se controla con la jerarquía de controles."
+      },
+      {
+       "code": "R.1.3.4.1",
+       "title": "Evaluación de riesgos y PHA de vapor, HPHW y condensado",
+       "detail": "Los sistemas de vapor, agua caliente a alta presión y condensado tienen evaluación de riesgos con PHA, incluida la prevención del golpe de ariete, y controles según GTS y el toolkit."
+      },
+      {
+       "code": "R.1.3.4.2",
+       "title": "Documentación y SOP de vapor",
+       "detail": "La documentación de equipos, áreas y medidas de seguridad está al día y accesible, con SOP de operación, inspección, mantenimiento y prevención del golpe de ariete."
+      },
+      {
+       "code": "R.1.3.6.3",
+       "title": "Recipientes a presión según la norma más estricta",
+       "detail": "Recipientes, PRV, VRV y sistemas de seguridad se inspeccionan, calibran o certifican y mantienen según la ley o los requisitos de AB InBev, lo que sea más estricto, con los planes en el sistema de órdenes de trabajo."
+      },
+      {
+       "code": "R.1.3.6.4",
+       "title": "Evaluación de riesgos y PHA de recipientes a presión",
+       "detail": "Identifica los recipientes a presión y los que pueden quedar presurizados por accidente, cubre también el vacío y la implosión, y demuestra que las PRV, VRV y demás protecciones evitan la explosión o implosión."
+      },
+      {
+       "code": "R.1.3.7.1",
+       "title": "Evaluación de gases y líquidos inflamables (FCGL)",
+       "detail": "Un quick-scan identifica si hay FCGL; si los hay, se evalúan a fondo (con PHA para tanques a granel). Un líquido es inflamable si su punto de inflamación no supera 37,8 °C (100 °F) y combustible si es igual o mayor. Siempre aplica al NH3."
+      },
+      {
+       "code": "R.1.3.7.2",
+       "title": "Documentación y SOP de FCGL",
+       "detail": "La documentación de tanques, áreas, procesos y medidas de seguridad de FCGL está al día y accesible, con SOP de operación, inspección y mantenimiento."
+      },
+      {
+       "code": "R.1.3.7.4",
+       "title": "Mantenimiento preventivo de FCGL",
+       "detail": "Hay un programa de inspección, pruebas y mantenimiento preventivo de los equipos de FCGL, cargado en el sistema de órdenes de trabajo."
+      },
+      {
+       "code": "R.1.3.8.2",
+       "title": "Documentación y SOP de CO2 y N2",
+       "detail": "La documentación de tanques, áreas, procesos y medidas de seguridad de CO2/N2 está al día y accesible, con SOP de operación, inspección y mantenimiento."
+      },
+      {
+       "code": "R.1.3.8.4",
+       "title": "Mantenimiento preventivo de CO2 y N2",
+       "detail": "Hay un programa de inspección, pruebas y mantenimiento preventivo de los equipos de CO2/N2, cargado en el sistema de órdenes de trabajo."
+      }
+     ]
+    },
+    {
+     "id": 18,
+     "phase_id": 2,
+     "slug": "n1-transporte-planta",
+     "title": "Transporte en planta",
+     "description": "Inspección preoperacional y estanterías.",
+     "icon": "truck",
+     "order_index": 3,
+     "objective": "Aplicar la inspección preoperacional y el MOC de estanterías.",
+     "body": "El nivel 1 agrega dos controles que evitan accidentes antes de que empiecen:\n\n* Inspección preoperacional: antes de cada turno se revisa y registra cada equipo de transporte, con o sin motor. Una transpaleta manual con una rueda dañada también puede lesionar a alguien.\n* Estanterías seguras: se inspeccionan, y cualquier cambio en su estructura o en el peso que soportan pasa por MOC.\n\nSi un equipo no pasó la inspección, no lo operes: repórtalo.",
+     "vpo_block": "Workplace Transport",
+     "requirements": [
+      {
+       "code": "R.1.4.1.15",
+       "title": "Inspección preoperacional de equipos de transporte",
+       "detail": "Antes de cada turno se inspeccionan y registran los equipos motorizados (camiones, montacargas, apiladores, transpaletas eléctricas, barredoras, carritos de golf) y los no motorizados (transpaletas manuales, carretillas)."
+      },
+      {
+       "code": "R.1.4.1.21",
+       "title": "Estanterías seguras y MOC",
+       "detail": "Las estanterías se inspeccionan y cumplen las GTS. Hay MOC cuando se modifican, cuando cambia su capacidad de carga o tras reparar daños importantes."
+      }
+     ]
+    },
+    {
+     "id": 19,
+     "phase_id": 2,
+     "slug": "n1-sustancias-peligrosas",
+     "title": "Sustancias peligrosas",
+     "description": "SDS, compatibilidad, tanques y legionela.",
+     "icon": "flask",
+     "order_index": 4,
+     "objective": "Aplicar las reglas VPO de almacenamiento, compatibilidad y control de químicos.",
+     "body": "En el nivel 1 el manejo de químicos pasa de lo básico a lo detallado: dónde se guardan, con qué se pueden guardar y cómo se cargan y descargan.\n\nPuntos clave para Utilities:\n\n* Cada sustancia tiene su SDS resumida en una ficha de una página en tu puesto.\n* Las sustancias incompatibles nunca se guardan juntas: revisa la matriz de compatibilidad.\n* Los tanques a granel tienen sensores de nivel, rebose seguro y contención secundaria.\n* Las torres de enfriamiento y condensadores evaporativos tienen control de legionela.\n* Los transformadores con aceite se revisan para detectar PCB.",
+     "vpo_block": "Hazardous Substances",
+     "requirements": [
+      {
+       "code": "R.1.6.1.6",
+       "title": "Evaluación de riesgos de sustancias peligrosas",
+       "detail": "Hay una evaluación de riesgos de seguridad y salud apoyada en el toolkit de gestión de químicos, con un plan de acción basado en la jerarquía de controles y las GTS."
+      },
+      {
+       "code": "R.1.6.1.7",
+       "title": "Roles y formación en sustancias peligrosas",
+       "detail": "Reciben formación con SKAP quienes almacenan, transportan, usan o mantienen sistemas con químicos, quienes trabajan expuestos y las brigadas, 3PL y contratistas incluidos: SOP, SDS, alarmas, manipulación, peligros, ambiente y emergencias. Refuerzo al menos cada 3 años."
+      },
+      {
+       "code": "R.1.6.1.8",
+       "title": "SDS y fichas de una página",
+       "detail": "Hay SDS al día de todas las sustancias, resumidas en fichas de una página disponibles en el cuarto de equipo, el puesto de trabajo y el punto de uso, y accesibles para primeros auxilios, brigadas, servicio médico y emergencias externas."
+      },
+      {
+       "code": "R.1.6.1.9",
+       "title": "El FLTM conoce los peligros de sus sustancias",
+       "detail": "El FLTM sabe explicar los peligros de las sustancias de su área y cómo se controlan, aplica los SOP y usa el PPE requerido, también con diluidos."
+      },
+      {
+       "code": "R.1.6.1.10",
+       "title": "Matriz de compatibilidad",
+       "detail": "Un estudio de compatibilidad de todas las sustancias, cilindros de gas incluidos, da lugar a una matriz publicada en cada lugar donde se guarda más de una sustancia, con solo las que hay allí."
+      },
+      {
+       "code": "R.1.6.1.11",
+       "title": "Almacenamiento seguro",
+       "detail": "Condiciones que evitan congelamiento o sobrecalentamiento, acceso solo para autorizados, detección y extinción de incendios, aditivos alimentarios aparte, oxidantes solo en estibas plásticas y con alivio de presión, ventilación y contención secundaria (IBC de doble pared o diques con detección de fugas y drenaje con candado)."
+      },
+      {
+       "code": "R.1.6.1.12",
+       "title": "Tanques a granel",
+       "detail": "Tienen sensores de nivel alto y bajo, rebose hacia un lugar seguro, lavador de gases si el producto lo requiere, contención secundaria y ventilación. Si están presurizados, cumplen la norma de recipientes a presión y tienen válvulas de seguridad."
+      },
+      {
+       "code": "R.1.6.1.13",
+       "title": "Cargue y descargue de sustancias peligrosas",
+       "detail": "Se hace con análisis de riesgo de la tarea (JHA), LOTOTO del camión o cisterna, montacarguistas formados y autorizados, y áreas dedicadas según el toolkit de químicos."
+      },
+      {
+       "code": "R.1.6.1.15",
+       "title": "Señalización de sustancias peligrosas",
+       "detail": "Tuberías y equipos con sustancias peligrosas están señalizados, con peligros, medidas preventivas y respuesta a emergencias."
+      },
+      {
+       "code": "R.1.6.1.16",
+       "title": "Control de legionela",
+       "detail": "Todas las torres de enfriamiento y condensadores evaporativos, incluso los más pequeños, están inventariados y tienen un SOP con muestreo de legionela, tratamiento de agua, limpieza, mantenimiento y respuesta ante niveles altos."
+      },
+      {
+       "code": "R.1.6.1.17",
+       "title": "Control de asbesto",
+       "detail": "Se identifica todo el asbesto y su estado. El que representa riesgo se retira o se controla, los materiales se rotulan y no se instala asbesto nuevo salvo aplicaciones sin alternativa."
+      },
+      {
+       "code": "R.1.6.1.18",
+       "title": "Control de PCB",
+       "detail": "Se revisan transformadores, capacitores y demás equipos eléctricos con aceite para detectar PCB (askarel), con inventario y plan de reemplazo según la ley."
+      }
+     ]
+    },
+    {
+     "id": 20,
+     "phase_id": 2,
+     "slug": "n1-lototo",
+     "title": "LOTOTO y máquinas",
+     "description": "Procedimientos para equipos críticos.",
+     "icon": "lock",
+     "order_index": 5,
+     "objective": "Reconocer qué equipos de Utilities necesitan un procedimiento de bloqueo propio.",
+     "body": "El SOP general de LOTOTO dice cómo bloquear. Pero un compresor de amoníaco no se bloquea igual que una bomba de agua.\n\nPor eso VPO exige procedimientos específicos y detallados para los equipos críticos. En Utilities eso incluye:\n\n* Recipientes y equipos con amoníaco.\n* Vapor, agua caliente a alta presión y condensado.\n* CO2 y N2.\n* Equipos eléctricos de alta tensión.\n* Todos los espacios confinados.\n\nAntes de bloquear un equipo crítico, busca su procedimiento específico.",
+     "vpo_block": "LOTOTO and Machine Safety",
+     "requirements": [
+      {
+       "code": "R.1.7.1.6",
+       "title": "SOP específicos de bloqueo para equipos críticos",
+       "detail": "Hay procedimientos detallados de SAM, LOTOTO y jogging para equipos críticos, entre ellos los de amoníaco, vapor, HWHP y condensado, CO2 y N2, alta tensión, todos los espacios confinados y cualquier equipo que se bloquee con frecuencia."
+      }
+     ]
+    },
+    {
+     "id": 21,
+     "phase_id": 2,
+     "slug": "n1-trabajo-alturas",
+     "title": "Trabajo en alturas",
+     "description": "Equipos inventariados e inspeccionados.",
+     "icon": "mountain",
+     "order_index": 6,
+     "objective": "Verificar tu equipo para trabajo en alturas antes de usarlo.",
+     "body": "Un arnés vencido o una eslinga desgastada pueden fallar justo cuando más los necesitas.\n\nVPO exige que los equipos para trabajo en alturas estén inventariados, rotulados, bien guardados y con inspección formal al menos una vez al año. Además, cada persona los revisa antes de usarlos.\n\nLos techos también están inventariados y señalizados como seguros o inseguros.",
+     "vpo_block": "Working at heights",
+     "requirements": [
+      {
+       "code": "R.1.8.1.11",
+       "title": "Equipos para trabajo en alturas en buen estado",
+       "detail": "Hay inventario de equipos para trabajo en alturas y de techos (seguros e inseguros). Los equipos están rotulados y ordenados (5S), con inspección formal al menos anual y revisión antes de cada uso, y los techos están señalizados."
+      }
+     ]
+    },
+    {
+     "id": 22,
+     "phase_id": 2,
+     "slug": "n1-espacios-confinados",
+     "title": "Espacios confinados",
+     "description": "Medidores, ventilación y rescate.",
+     "icon": "cylinder",
+     "order_index": 7,
+     "objective": "Asegurar que los equipos de entrada y rescate estén listos.",
+     "body": "Dentro de un espacio confinado dependes de tus equipos: el medidor que avisa si falta oxígeno o hay gases, la ventilación, el radio y el equipo de rescate.\n\nPor eso VPO pide que estén inventariados, en orden, con inspección formal al menos anual, revisados antes de cada uso y, en el caso de los medidores de atmósfera, calibrados según el fabricante.",
+     "vpo_block": "Confined Spaces",
+     "requirements": [
+      {
+       "code": "R.1.10.1.5",
+       "title": "Equipos para espacios confinados en buen estado",
+       "detail": "Hay inventario de equipos de entrada y monitoreo (medidores, ventilación, comunicación, trípodes, rescate), rotulados y ordenados (5S), con inspección formal anual, revisión antes de cada uso y calibración de los medidores de atmósfera según el fabricante."
+      }
+     ]
+    },
+    {
+     "id": 23,
+     "phase_id": 2,
+     "slug": "n1-emergencias",
+     "title": "Emergencias",
+     "description": "Simulacros, incluido el de NH3.",
+     "icon": "siren",
+     "order_index": 8,
+     "objective": "Entender para qué sirven los simulacros y cuál es obligatorio en Utilities.",
+     "body": "Un plan de emergencias que nunca se practica es solo un papel. Los simulacros muestran si las alarmas funcionan, si la gente sabe a dónde ir y si los cortes de energía se hacen a tiempo.\n\nPara Utilities hay un requisito específico: si la planta usa amoníaco como refrigerante, hace al menos un simulacro de fuga de NH3 al año.",
+     "vpo_block": "Emergency Preparedness and Response",
+     "requirements": [
+      {
+       "code": "R.1.11.1.4",
+       "title": "Simulacros de emergencia",
+       "detail": "El plan de emergencias se prueba y documenta con simulacros prácticos, como los de incendio. Las plantas con refrigeración por amoníaco hacen al menos un simulacro de fuga de NH3 al año."
+      }
+     ]
+    },
+    {
+     "id": 24,
+     "phase_id": 2,
+     "slug": "n1-contratistas",
+     "title": "Contratistas",
+     "description": "Método de trabajo y monitoreo.",
+     "icon": "users",
+     "order_index": 9,
+     "objective": "Saber qué se revisa antes y durante el trabajo de un contratista.",
+     "body": "Antes de que un contratista toque un equipo, la planta revisa su plan: qué va a hacer, qué peligros tiene cada tarea y cómo los va a controlar. Eso es el método de trabajo (method statement), paso 3 de la gestión de contratistas.\n\nY una vez empieza el trabajo, los contratistas entran en las rutinas de monitoreo de seguridad, igual que el personal propio.",
+     "vpo_block": "Contractor and Service Providers Management",
+     "requirements": [
+      {
+       "code": "R.1.12.1.11",
+       "title": "Plan de seguridad y método de trabajo (paso 3)",
+       "detail": "La planta valida el plan de seguridad y el método de trabajo de todo trabajo de contratistas, tanto servicios como proyectos. El método describe en detalle los peligros y controles de cada tarea."
+      },
+      {
+       "code": "R.1.12.1.12",
+       "title": "Contratistas en las rutinas de monitoreo",
+       "detail": "La seguridad de contratistas y proveedores forma parte de las rutinas de monitoreo de seguridad."
+      }
+     ]
+    },
+    {
+     "id": 25,
+     "phase_id": 2,
+     "slug": "n1-salud-ocupacional",
+     "title": "Salud ocupacional",
+     "description": "Peligros para la salud, también de contratistas.",
+     "icon": "health",
+     "order_index": 10,
+     "objective": "Reconocer los peligros para la salud en Utilities y a quién cubren los programas.",
+     "body": "Los accidentes se ven en el momento. Las enfermedades ocupacionales tardan años: pérdida auditiva por ruido, problemas respiratorios por químicos.\n\nEn Utilities los peligros para la salud más comunes son el ruido de compresores y calderas, la exposición a químicos y el calor.\n\nVPO pide que conozcas esos peligros y participes en controlarlos, y que los contratistas estén cubiertos tanto frente a los peligros de la planta como a los de su propia tarea.",
+     "vpo_block": "Occupational Health",
+     "requirements": [
+      {
+       "code": "R.1.13.1.1",
+       "title": "Roles y formación en salud ocupacional",
+       "detail": "Empleados y contratistas reciben formación con SKAP sobre los peligros para la salud y cómo controlarlos, con refuerzo al menos cada 3 años."
+      },
+      {
+       "code": "R.1.13.1.2",
+       "title": "La salud ocupacional incluye a contratistas",
+       "detail": "La evaluación de riesgos para la salud (OHHRA) y los programas cubren a contratistas en dos niveles: los peligros de la planta, como ruido o químicos, y los de su tarea, como humos de soldadura o fibras de asbesto."
+      },
+      {
+       "code": "R.1.13.1.4",
+       "title": "El FLTM conoce los peligros para la salud",
+       "detail": "El FLTM conoce los peligros para la salud de su trabajo y participa en controlarlos."
+      }
+     ]
+    },
+    {
+     "id": 26,
+     "phase_id": 2,
+     "slug": "n1-gestion-sif",
+     "title": "Gestión SIF",
+     "description": "Reporte de precursores SIF.",
+     "icon": "warning",
+     "order_index": 11,
+     "objective": "Reconocer un precursor SIF y saber qué hacer con él.",
+     "body": "Un precursor SIF es una situación de alto riesgo en la que los controles fallaron o no estaban, aunque esta vez nadie se lastimara.\n\nSon las señales de alerta más valiosas: detrás de una lesión grave casi siempre hubo precursores que nadie reportó.\n\nEn el nivel 1 VPO exige registrarlos, investigarlos y que los equipos de trabajo los analicen para tomar acciones.",
+     "vpo_block": "SIF Management",
+     "requirements": [
+      {
+       "code": "R.1.14.1.2",
+       "title": "Reporte de precursores SIF",
+       "detail": "La planta registra e investiga los precursores SIF en todas sus áreas, y los equipos del FLTM los analizan y toman acciones para evitar accidentes."
+      }
+     ]
+    },
+    {
+     "id": 27,
+     "phase_id": 2,
+     "slug": "n1-cultura-seguridad",
+     "title": "Cultura de seguridad",
+     "description": "Seguridad territorial y autoridad para detener.",
+     "icon": "handshake",
+     "order_index": 12,
+     "objective": "Ejercer como dueño de tu territorio y usar tu autoridad para detener un trabajo.",
+     "body": "La seguridad territorial significa que cada área tiene un dueño que la conoce mejor que nadie y la cuida.\n\nSi Utilities es tu territorio, VPO espera que:\n\n* Acompañes a los contratistas en tu área: cómo moverse y qué reglas aplican.\n* Vigiles que trabajen seguro, con foco en LOTOTO, químicos, permisos y PPE.\n* Detengas el trabajo si ves un riesgo para alguien: tienes la autoridad y la responsabilidad de hacerlo.\n\nAdemás, todos pasan por el taller de seguridad basada en el comportamiento; el personal nuevo, en sus primeros 6 meses.",
+     "vpo_block": "Behavioral Safety Culture",
+     "requirements": [
+      {
+       "code": "R.1.17.3.1",
+       "title": "Estrategia de seguridad territorial",
+       "detail": "La planta define sus territorios y dueños, implementa los prerrequisitos de seguridad territorial en todos y tiene un plan para subir su nivel. Aplica también a contratistas con territorio propio, como el taller de montacargas."
+      },
+      {
+       "code": "R.1.17.3.3",
+       "title": "El FLTM acompaña a contratistas en su territorio",
+       "detail": "El FLTM es compañero de contratistas y proveedores en su área: los orienta, les explica los SOP y vigila que trabajen seguro (LOTOTO, químicos, permisos, PPE). Todo empleado reporta y corrige un trabajo inseguro y puede detenerlo."
+      },
+      {
+       "code": "R.1.17.4.1",
+       "title": "Reconocimiento y sanción",
+       "detail": "Hay un SOP de reconocimiento y sanción, percibido como justo, para asegurar el cumplimiento de la política y el sueño de seguridad."
+      },
+      {
+       "code": "R.1.17.9.1",
+       "title": "Taller de seguridad basada en el comportamiento",
+       "detail": "El 100% de los empleados, aprendices incluidos, participa en el taller. El personal nuevo lo hace en sus primeros 6 meses y hay refuerzo al menos cada 3 años."
+      }
+     ]
+    },
+    {
+     "id": 28,
+     "phase_id": 2,
+     "slug": "n1-cumplimiento-legal",
+     "title": "Cumplimiento legal",
+     "description": "Cambios legales y permisos al día.",
+     "icon": "scale",
+     "order_index": 13,
+     "objective": "Entender cómo la planta mantiene al día sus obligaciones legales.",
+     "body": "En el nivel 0 la planta identifica qué leyes le aplican. En el nivel 1 se asegura de que ese conocimiento no se quede viejo:\n\n* Sigue los cambios en la legislación de seguridad y salud.\n* Registra sus permisos y licencias en el tracker global.\n* Pide las renovaciones a tiempo para que nunca haya un permiso o licencia vencido.\n\nUn permiso vencido puede obligar a parar un equipo o un área. Si ves una certificación o licencia a punto de vencer, avisa.",
+     "vpo_block": "Facility compliance",
+     "requirements": [
+      {
+       "code": "R.1.18.1.2",
+       "title": "Seguimiento a cambios legales",
+       "detail": "Hay un sistema para seguir las actualizaciones y cambios de los requisitos legales de seguridad y salud."
+      },
+      {
+       "code": "R.1.18.1.3",
+       "title": "Permisos y licencias en el tracker global",
+       "detail": "Los permisos y licencias de la planta están registrados en el Global Permits and Licenses tracker."
+      },
+      {
+       "code": "R.1.18.1.4",
+       "title": "Renovación oportuna de permisos y licencias",
+       "detail": "Las renovaciones se piden a tiempo, de modo que no haya permisos ni licencias vencidos."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "slug": "nivel-2",
+   "name": "Gestión proactiva",
+   "description": "Nivel 2 de VPO: la planta se adelanta a los problemas. Champions, indicadores, observaciones de comportamiento, JHA y aprendizaje de los incidentes.",
+   "order_index": 2,
+   "unlock_threshold": 80,
+   "theme": "amber",
+   "icon": "target",
+   "nodes": [
+    {
+     "id": 29,
+     "phase_id": 3,
+     "slug": "n2-seguridad-operacional",
+     "title": "Seguridad operacional",
+     "description": "Champions, estrés térmico e izajes artesanales.",
+     "icon": "shield",
+     "order_index": 0,
+     "objective": "Conocer los controles proactivos del nivel 2 en seguridad operacional.",
+     "body": "El nivel 2 agrega personas y controles que se anticipan al problema.\n\n* Safety Champions: al menos uno por área, con tiempo dedicado real para el rol.\n* Estrés térmico: en salas de calderas y compresores el calor es un riesgo de salud que se evalúa y se controla con agua, pausas, rotación y zonas frescas.\n* Izajes: una estructura fabricada en la planta solo se puede usar si un experto acreditado la aprobó por escrito.\n* Temporales: cada uno firma un formulario con sus tareas, peligros y formación.",
+     "vpo_block": "Operational Safety Management",
+     "requirements": [
+      {
+       "code": "R.1.1.1.5",
+       "title": "Safety Champions en cada área",
+       "detail": "Cada área nombra al menos un Safety Champion, con tiempo dedicado fuera de sus responsabilidades de producción para ejercer el rol. Sus competencias se alinean con Seguridad de Zona (al menos nivel avanzado de Safety en SKAP)."
+      },
+      {
+       "code": "R.1.1.2.10",
+       "title": "Toolkits de evaluación de riesgos en 60% o más",
+       "detail": "Los GOP, toolkits y tableros que apoyan la evaluación de riesgos están en al menos 60%, con glidepaths para cerrar las brechas."
+      },
+      {
+       "code": "R.1.1.9.5",
+       "title": "Estructuras de izaje fabricadas en planta",
+       "detail": "No se usan estructuras de izaje hechas en casa salvo que un experto acreditado las apruebe por escrito, antes del primer uso y después de cada modificación importante."
+      },
+      {
+       "code": "R.1.1.10.1",
+       "title": "Gestión del estrés térmico",
+       "detail": "Una evaluación identifica los peligros por calor (límites legales o ISO 7243, tipo de trabajo, duración, ciclos de trabajo y descanso, agua disponible, temperatura, humedad, ventilación, uniformes y PPE, sol directo). Los controles quedan en un SOP: información sobre síntomas, acceso a agua e hidratación, pausas y rotación, zonas frescas o con sombra y PPE adaptado."
+      },
+      {
+       "code": "R.1.1.11.5",
+       "title": "Formulario de seguridad del trabajador temporal",
+       "detail": "Cada temporal firma un formulario que cubre el área, las tareas y equipos, los peligros y medidas preventivas, la vigilancia de salud y la declaración de que recibió y entendió la formación y de que solo hará las tareas asignadas."
+      }
+     ]
+    },
+    {
+     "id": 30,
+     "phase_id": 3,
+     "slug": "n2-reporte-incidentes",
+     "title": "Reporte de incidentes",
+     "description": "Safety Alerts, rutinas y proceso MDI.",
+     "icon": "file",
+     "order_index": 1,
+     "objective": "Entender cómo la planta convierte los incidentes en aprendizaje.",
+     "body": "En el nivel 2 el incidente no se queda en el informe: circula y cambia la forma de trabajar.\n\n* Cuando termina el RCA se emite un Safety Alert, en español y en inglés.\n* Los incidentes (propios y de otras plantas) se revisan en el cuarto de equipo, en la entrega de turno y en las reuniones de gestión.\n* Los aprendizajes de los alertas que llegan de otras plantas se implementan y se siguen hasta cerrarlos.\n\nCuando en tu entrega de turno se comenta un alerta de otra cervecería, la pregunta correcta es: ¿esto nos puede pasar aquí?",
+     "vpo_block": "Incident Reporting & Management",
+     "requirements": [
+      {
+       "code": "R.1.2.1.8",
+       "title": "Safety Alert tras el RCA",
+       "detail": "La planta envía a Seguridad de Zona, para validación, un Safety Alert en idioma local y en inglés por fatalidades, SIF reales y potenciales y LTI, apenas termina el análisis de causa raíz."
+      },
+      {
+       "code": "R.1.2.1.10",
+       "title": "Incidentes en las rutinas de la planta",
+       "detail": "La revisión de los incidentes, incluidas las enfermedades ocupacionales y los Safety Alerts de otras plantas, se integra en las rutinas: cuartos de equipo, entregas de turno y reuniones de gestión."
+      },
+      {
+       "code": "R.1.2.1.11",
+       "title": "Aprender de los Safety Alerts",
+       "detail": "La planta revisa los aprendizajes de todos los Safety Alerts que recibe, implementa los que apliquen y hace seguimiento hasta cerrar las acciones."
+      },
+      {
+       "code": "R.1.2.1.12",
+       "title": "Proceso de trabajo restringido (MDI)",
+       "detail": "Participa un profesional de la salud, las restricciones se definen caso a caso, el líder se entera y verifica que se cumplan. El trabajo desde casa como tarea modificada está prohibido salvo cargos administrativos y por un máximo de 5 días hábiles; si se excede, el caso se reclasifica como LTI."
+      }
+     ]
+    },
+    {
+     "id": 31,
+     "phase_id": 3,
+     "slug": "n2-procesos-alto-riesgo",
+     "title": "Procesos de alto riesgo",
+     "description": "Toolkits al 70%, coordinadores e indicadores.",
+     "icon": "flame",
+     "order_index": 2,
+     "objective": "Reconocer cómo se gestionan y miden los procesos de alto riesgo en el nivel 2.",
+     "body": "En el nivel 1 los toolkits debían llegar a 60%. En el nivel 2, PSM NH3 y SSM suben a 70%.\n\nPero lo más importante no es el número: es que haya alguien responsable y que los indicadores se vean donde se trabaja.\n\n* Coordinador para cada proceso (una persona puede cubrir varios) y comités que se reúnen al menos cada trimestre.\n* Indicadores en el cuarto de equipo: puntaje de toolkits, cierre de acciones, precursores SIF y fugas reportadas.\n\nLas fugas reportadas son un indicador clave en Utilities: reportarlas temprano es lo que evita que se conviertan en emergencias.",
+     "vpo_block": "High Risk Processes Management",
+     "requirements": [
+      {
+       "code": "R.1.3.1.14",
+       "title": "Toolkit PSM NH3 en 70% o más",
+       "detail": "El toolkit de amoníaco sube a al menos 70%, con glidepaths para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.16",
+       "title": "Toolkit SSM en 70% o más",
+       "detail": "El toolkit de seguridad en vapor sube a al menos 70%, con glidepaths para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.18",
+       "title": "Coordinadores y comités de alto riesgo",
+       "detail": "Hay coordinador de PSM NH3 (si hay amoníaco), DEPSM, SSM y ESM, y comités que se reúnen al menos cada trimestre, con tiempo y recursos para hacer su trabajo y para formarse. Una misma persona puede cubrir varios procesos."
+      },
+      {
+       "code": "R.1.3.1.19",
+       "title": "Indicadores de los programas de alto riesgo",
+       "detail": "La planta define y sigue indicadores en el nivel de gestión y en los cuartos de equipo y puestos de trabajo: puntaje de toolkits, cierre de planes de acción, reporte y cierre de precursores SIF, cierre de órdenes de trabajo y fugas reportadas."
+      }
+     ]
+    },
+    {
+     "id": 32,
+     "phase_id": 3,
+     "slug": "n2-ergonomia",
+     "title": "Ergonomía y cargas",
+     "description": "Evaluación MHA y EWRA.",
+     "icon": "package",
+     "order_index": 3,
+     "objective": "Entender cómo se evalúan las cargas y los puestos de trabajo.",
+     "body": "Levantar sacos de sal para el ablandador, mover canecas de químicos, trabajar agachado en una válvula: son tareas que no causan accidentes, pero sí lesiones que aparecen con los años.\n\nEl nivel 2 pide dos evaluaciones:\n\n* MHA: evaluación de la manipulación de materiales.\n* EWRA: evaluación ergonómica de los puestos de trabajo.\n\nCon sus resultados se define la formación del FLTM en manipulación manual y ergonomía.",
+     "vpo_block": "Material Handling and Ergonomics",
+     "requirements": [
+      {
+       "code": "R.1.5.1.1",
+       "title": "Evaluaciones MHA y EWRA",
+       "detail": "La planta hace y documenta la evaluación de manipulación de materiales (MHA) y la evaluación ergonómica de los puestos de trabajo (EWRA)."
+      },
+      {
+       "code": "R.1.5.1.4",
+       "title": "Formación en manipulación de cargas y ergonomía",
+       "detail": "A partir de la MHA y la EWRA, la planta forma al FLTM en manipulación manual y ergonomía con apoyo de SKAP, con refuerzo al menos cada 3 años."
+      }
+     ]
+    },
+    {
+     "id": 33,
+     "phase_id": 3,
+     "slug": "n2-sustancias-peligrosas",
+     "title": "Sustancias peligrosas",
+     "description": "Mantenimiento y CIP sin fugas.",
+     "icon": "flask",
+     "order_index": 4,
+     "objective": "Entender por qué una fuga pequeña en el CIP no es un tema menor.",
+     "body": "Las estaciones de CIP manejan soda cáustica y ácidos a temperatura. Una fuga pequeña, un goteo en una brida o una bomba que 'siempre ha goteado' son el inicio de una quemadura química o de una falla mayor.\n\nEl nivel 2 exige un programa de inspección, pruebas y mantenimiento preventivo, y un programa de integridad mecánica, con una meta explícita: estaciones de CIP sin fugas.",
+     "vpo_block": "Hazardous Substances",
+     "requirements": [
+      {
+       "code": "R.1.6.1.21",
+       "title": "Mantenimiento e integridad de sistemas con químicos",
+       "detail": "Hay un programa de inspección, pruebas y mantenimiento preventivo, y un programa detallado de integridad mecánica, para mantener el almacenamiento y la operación seguros y asegurar estaciones de CIP sin fugas."
+      }
+     ]
+    },
+    {
+     "id": 34,
+     "phase_id": 3,
+     "slug": "n2-lototo",
+     "title": "LOTOTO y máquinas",
+     "description": "El bloqueo entra al monitoreo.",
+     "icon": "lock",
+     "order_index": 5,
+     "objective": "Entender por qué el bloqueo se verifica en campo y no solo en el procedimiento.",
+     "body": "Tener un buen procedimiento de LOTOTO no garantiza que se aplique bien todos los días. Por eso, en el nivel 2, el bloqueo entra en la matriz de monitoreo de seguridad.\n\nEso significa que un líder puede llegar mientras haces un bloqueo y revisar contigo: si identificaste todas las energías, si el candado y la tarjeta están puestos, si comprobaste la energía cero y cómo se maneja la entrega de turno.\n\nNo es una auditoría para buscar errores: es la oportunidad de corregir a tiempo lo que podría costar una mano o una vida.",
+     "vpo_block": "LOTOTO and Machine Safety",
+     "requirements": [
+      {
+       "code": "R.1.7.1.10",
+       "title": "SAM, LOTOTO y jogging en el monitoreo de seguridad",
+       "detail": "La verificación de las actividades de SAM, LOTOTO y jogging está incorporada en el proceso de monitoreo de seguridad."
+      }
+     ]
+    },
+    {
+     "id": 35,
+     "phase_id": 3,
+     "slug": "n2-espacios-confinados",
+     "title": "Espacios confinados",
+     "description": "Un SOP por cada espacio.",
+     "icon": "cylinder",
+     "order_index": 6,
+     "objective": "Saber qué contiene el SOP de cada espacio confinado.",
+     "body": "En el nivel 0 la planta identifica y rotula sus espacios confinados. En el nivel 2 cada uno tiene su propio procedimiento.\n\nNo es lo mismo entrar a un tanque de agua tratada que a un tanque que contenía químicos o a un foso donde puede acumularse CO2. Cada SOP detalla:\n\n* Los peligros de ese espacio en particular y cómo se controlan.\n* Su procedimiento de LOTOTO asociado.\n* La formación, el permiso y la supervisión necesarios.\n* La respuesta de emergencia y el rescate.",
+     "vpo_block": "Confined Spaces",
+     "requirements": [
+      {
+       "code": "R.1.10.1.6",
+       "title": "SOP específico para cada espacio confinado",
+       "detail": "Cada espacio confinado tiene su propio SOP, vinculado con su procedimiento de LOTOTO, que detalla peligros, medidas de control, formación necesaria, requisitos de permiso y supervisión, y la respuesta de emergencia y rescate."
+      },
+      {
+       "code": "R.1.10.1.7",
+       "title": "Espacios confinados en las rutinas de monitoreo",
+       "detail": "La entrada a espacios confinados forma parte de las rutinas de monitoreo de seguridad."
+      }
+     ]
+    },
+    {
+     "id": 36,
+     "phase_id": 3,
+     "slug": "n2-contratistas",
+     "title": "Contratistas",
+     "description": "Charlas de seguridad diarias.",
+     "icon": "users",
+     "order_index": 7,
+     "objective": "Reconocer el valor de la charla diaria antes de empezar el trabajo.",
+     "body": "La charla de seguridad (toolbox meeting) es el paso 8 de la gestión de contratistas y ocurre todos los días, antes de empezar.\n\nSirve para tres cosas: repasar qué se va a hacer hoy, recordar los peligros y controles de esas tareas y hablar de temas que suben la conciencia de seguridad, como un alerta reciente.\n\nSi trabajas cerca de una obra en tu área, participar en la charla te permite saber qué van a hacer ese día y qué riesgos te pueden alcanzar.",
+     "vpo_block": "Contractor and Service Providers Management",
+     "requirements": [
+      {
+       "code": "R.1.12.1.15",
+       "title": "Charlas de seguridad diarias (paso 8)",
+       "detail": "Se hacen charlas de seguridad (toolbox) para discutir cada día los aspectos de seguridad de las tareas, las medidas de control y temas que aumenten la conciencia de seguridad."
+      }
+     ]
+    },
+    {
+     "id": 37,
+     "phase_id": 3,
+     "slug": "n2-salud-ocupacional",
+     "title": "Salud ocupacional",
+     "description": "Equipos de control y medición calibrados.",
+     "icon": "health",
+     "order_index": 8,
+     "objective": "Entender por qué los controles de salud también necesitan mantenimiento.",
+     "body": "En el nivel 1 la planta identifica los peligros para la salud. En el nivel 2 se asegura de que las medidas técnicas realmente funcionen.\n\nUna cabina acústica, un sistema de extracción o un encerramiento de compresores reducen la exposición solo si se mantienen. Por eso entran en la inspección de equipos críticos del área.\n\nLo mismo aplica a los equipos con los que se mide: un sonómetro descalibrado puede indicar que el ruido está bien cuando no lo está. Sonómetros, luxómetros, audiómetros y espirómetros se calibran, y sus programas viven en el sistema de órdenes de trabajo.",
+     "vpo_block": "Occupational Health",
+     "requirements": [
+      {
+       "code": "R.1.13.1.7",
+       "title": "Medidas técnicas contra enfermedades ocupacionales",
+       "detail": "Los equipos instalados para reducir el riesgo de enfermedades ocupacionales entran en la inspección de equipos críticos del área. Los equipos de medición de exposición (sonómetros, luxómetros) y los médicos (audiómetros, espirómetros) están calibrados, con los programas cargados en el sistema de órdenes de trabajo."
+      }
+     ]
+    },
+    {
+     "id": 38,
+     "phase_id": 3,
+     "slug": "n2-seguridad-vial",
+     "title": "Seguridad vial",
+     "description": "Conducción defensiva fuera de la planta.",
+     "icon": "car",
+     "order_index": 9,
+     "objective": "Aplicar las reglas de conducción defensiva en desplazamientos de trabajo.",
+     "body": "Los desplazamientos por trabajo son uno de los riesgos más subestimados: ir a otra planta, recoger un repuesto o atender una urgencia de noche.\n\nVPO exige formación en conducción defensiva para quien conduce por motivos laborales, sea el vehículo de la empresa, arrendado o propio.\n\nAntes de salir, repasa esta lista.",
+     "vpo_block": "Road & Driving Safety",
+     "requirements": [
+      {
+       "code": "R.1.15.1.1",
+       "title": "Formación en conducción defensiva",
+       "detail": "Quien conduzca un vehículo de la empresa, arrendado o propio por motivos laborales recibe formación en conducción defensiva: cumplimiento de las normas de tránsito, uso del cinturón, política de alcohol, tiempos de descanso y fatiga, y distracciones como el uso del celular."
+      }
+     ]
+    },
+    {
+     "id": 39,
+     "phase_id": 3,
+     "slug": "n2-monitoreo-coaching",
+     "title": "Monitoreo y coaching",
+     "description": "JHA y comunicación de hallazgos.",
+     "icon": "eye",
+     "order_index": 10,
+     "objective": "Conocer el alcance del JHA y dónde se comunican los hallazgos.",
+     "body": "El JHA (Job Hazard Analysis) analiza en detalle los peligros de un cargo: qué hace esa persona paso a paso y qué puede salir mal.\n\nEn el nivel 2 la planta prioriza y planifica los JHA de forma que todos los cargos queden cubiertos en un máximo de 3 años.\n\nY los resultados del monitoreo no se quedan en un informe: lo bueno y lo que hay que corregir se comunica en el puesto de trabajo y en el cuarto de equipo, donde sirve.",
+     "vpo_block": "Safety Monitoring & Coaching",
+     "requirements": [
+      {
+       "code": "R.1.16.1.6",
+       "title": "Estrategia y SOP de JHA",
+       "detail": "La planta define los cargos, prioriza y hace un plan para realizar análisis de peligros por tarea (JHA) detallados, y lo ejecuta. El plan asegura que todos los cargos queden cubiertos en un máximo de 3 años."
+      },
+      {
+       "code": "R.1.16.1.7",
+       "title": "Comunicación de los hallazgos",
+       "detail": "Los hallazgos positivos y negativos del monitoreo y el coaching se comunican en los puestos de trabajo y en los cuartos de equipo."
+      }
+     ]
+    },
+    {
+     "id": 40,
+     "phase_id": 3,
+     "slug": "n2-cultura-seguridad",
+     "title": "Cultura de seguridad",
+     "description": "Comunicación, observaciones y campañas.",
+     "icon": "handshake",
+     "order_index": 11,
+     "objective": "Conocer las prácticas de cultura de seguridad que agrega el nivel 2.",
+     "body": "El nivel 2 hace visible la seguridad:\n\n* Una estrategia de comunicación para que los alertas, los resultados de las evaluaciones y los cambios de requisitos lleguen a todos.\n* Observaciones de comportamiento (SBO) hechas por los líderes, con meta mensual, retroalimentación a la persona observada y análisis de tendencias.\n* Campañas de seguridad y salud, y el Día de la Seguridad cada 28 de abril.\n\nUna SBO no es una inspección: la conversación posterior, en la que te explican qué vieron y escuchan por qué trabajas así, es la parte que cambia comportamientos.",
+     "vpo_block": "Behavioral Safety Culture",
+     "requirements": [
+      {
+       "code": "R.1.17.5.2",
+       "title": "Estrategia de comunicación en seguridad",
+       "detail": "Todos los grupos de interés reciben la información relevante: Safety Alerts (casi accidentes, incidentes, emergencias y sus acciones), resultados de evaluaciones de cultura y encuestas, resultados de evaluaciones de riesgo, resultados del coaching y monitoreo, comités de seguridad y cambios en los requisitos."
+      },
+      {
+       "code": "R.1.17.6.1",
+       "title": "Observaciones de comportamiento (SBO) para líderes",
+       "detail": "Los líderes se forman en el proceso de SBO (el personal nuevo en 6 meses), el área de ES los acompaña y valida sus habilidades, hay una meta mensual por líder con seguimiento, se da retroalimentación a la persona observada, se analizan tendencias con plan de acción y ES hace verificaciones de calidad."
+      },
+      {
+       "code": "R.1.17.7.1",
+       "title": "Campañas y Día de la Seguridad",
+       "detail": "La planta organiza campañas de seguridad y salud y el Día o la Semana de la Seguridad (28 de abril), con temas elegidos según los requisitos globales y de Zona y el análisis de tendencias de los datos de seguridad."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "slug": "nivel-3",
+   "name": "Dueños del territorio",
+   "description": "Nivel 3 de VPO: la seguridad la asume quien trabaja en el área. Permisos, alturas, espacios confinados, bloqueos y emergencias con dueño claro.",
+   "order_index": 3,
+   "unlock_threshold": 70,
+   "theme": "grape",
+   "icon": "trophy",
+   "nodes": [
+    {
+     "id": 41,
+     "phase_id": 4,
+     "slug": "n3-seguridad-operacional",
+     "title": "Seguridad operacional",
+     "description": "El FLTM se apropia de riesgos, permisos e izajes.",
+     "icon": "shield",
+     "order_index": 0,
+     "objective": "Asumir la seguridad de tu territorio en riesgos, permisos e izajes.",
+     "body": "El nivel 3 es el de la apropiación: la seguridad deja de ser algo que revisa el área de ES y pasa a ser de quien trabaja en el territorio.\n\nComo dueño de tu área, VPO espera que:\n\n* Participes en las evaluaciones de riesgo, sobre todo de las tareas no rutinarias, y las actualices cuando veas un peligro nuevo.\n* Revises los permisos de trabajo de las tareas que se hacen en tu territorio.\n* No aceptes izajes no rutinarios sin permiso válido y verifiques las condiciones antes de que empiecen.",
+     "vpo_block": "Operational Safety Management",
+     "requirements": [
+      {
+       "code": "R.1.1.2.11",
+       "title": "El FLTM participa en la evaluación de riesgos",
+       "detail": "El FLTM participa activamente: revisa las evaluaciones y SOP existentes, interviene en las evaluaciones de equipos y procesos nuevos (como parte del MOC) y las actualiza cuando observa peligros nuevos, con foco en las tareas no rutinarias."
+      },
+      {
+       "code": "R.1.1.2.12",
+       "title": "Toolkits de evaluación de riesgos en 70% o más",
+       "detail": "Los GOP, toolkits y tableros que apoyan la evaluación de riesgos llegan a al menos 70%, con glidepaths para cerrar las brechas."
+      },
+      {
+       "code": "R.1.1.3.7",
+       "title": "Priorización del CAPEX de seguridad",
+       "detail": "El CAPEX de seguridad se prioriza según la matriz global de priorización y solo se piden en la canasta ESL los proyectos de requisitos ambientales, de seguridad y legales."
+      },
+      {
+       "code": "R.1.1.8.5",
+       "title": "El dueño del territorio revisa los permisos",
+       "detail": "El dueño del territorio de seguridad revisa (firma o queda formalmente informado) los permisos de trabajo de las tareas que se hacen en su área."
+      },
+      {
+       "code": "R.1.1.9.6",
+       "title": "Los izajes los asume el dueño del territorio",
+       "detail": "No acepta izajes no rutinarios en su área sin permiso válido, verifica que estén dadas las condiciones antes de que empiecen y es dueño de la inspección de los equipos de izaje."
+      }
+     ]
+    },
+    {
+     "id": 42,
+     "phase_id": 4,
+     "slug": "n3-procesos-alto-riesgo",
+     "title": "Procesos de alto riesgo",
+     "description": "Toolkits al 80% y gestión en el MCRS.",
+     "icon": "flame",
+     "order_index": 1,
+     "objective": "Reconocer la exigencia máxima de los toolkits y su lugar en las rutinas.",
+     "body": "El recorrido de los toolkits marca la madurez de la planta: 60% en el nivel 1, 70% en el nivel 2 y 80% en el nivel 3 para PSM NH3, SSM y ESM.\n\nPero el cambio de fondo del nivel 3 es otro: el estado de los programas de alto riesgo entra en el MCRS, el sistema de rutinas de gestión.\n\nEs decir, deja de ser un tema que se revisa cuando llega la auditoría y pasa a verse en las reuniones periódicas de la planta y de cada área, junto con la producción y la calidad.",
+     "vpo_block": "High Risk Processes Management",
+     "requirements": [
+      {
+       "code": "R.1.3.1.21",
+       "title": "Toolkit PSM NH3 en 80% o más",
+       "detail": "El toolkit de amoníaco llega a al menos 80%, con glidepaths para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.23",
+       "title": "Toolkit SSM en 80% o más",
+       "detail": "El toolkit de seguridad en vapor llega a al menos 80%, con glidepaths para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.24",
+       "title": "Toolkit ESM en 80% o más",
+       "detail": "El toolkit de seguridad eléctrica llega a al menos 80%, con glidepaths para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.25",
+       "title": "Alto riesgo en el MCRS",
+       "detail": "El estado de los programas de alto riesgo (PSM NH3, DEPSM, SSM, ESM, CO2 y N2 y recipientes a presión) forma parte del sistema de rutinas de gestión (MCRS) de la planta y de las áreas."
+      }
+     ]
+    },
+    {
+     "id": 43,
+     "phase_id": 4,
+     "slug": "n3-ergonomia",
+     "title": "Ergonomía y cargas",
+     "description": "Controles reales y buenas prácticas.",
+     "icon": "package",
+     "order_index": 2,
+     "objective": "Usar las ayudas disponibles y aplicar la jerarquía de controles en cargas.",
+     "body": "En el nivel 2 la planta evalúa. En el nivel 3 cambia las condiciones y tú aplicas las buenas prácticas.\n\nLa jerarquía de controles aplicada a cargas significa, en orden: eliminar el levantamiento (ayudas mecánicas), reducir el peso, adaptar el puesto, reducir la repetición, rotar personas y, solo al final, entrenar la técnica.\n\nSi la planta puso una ayuda para levantar y no se usa, el control no existe.",
+     "vpo_block": "Material Handling and Ergonomics",
+     "requirements": [
+      {
+       "code": "R.1.5.1.2",
+       "title": "Controles para reducir lesiones ergonómicas",
+       "detail": "A partir de la MHA y la EWRA, la planta reduce los riesgos con medidas técnicas (según las GTS), organizativas y de personas, usando la jerarquía de controles: ayudas para levantar, adaptar el puesto, reducir el peso, reducir movimientos repetitivos, rotar personas, formación en técnicas y acondicionamiento físico."
+      },
+      {
+       "code": "R.1.5.1.3",
+       "title": "El FLTM aplica las buenas prácticas",
+       "detail": "El FLTM demuestra conocimiento sobre manipulación segura de materiales y usa las ayudas para levantar y las herramientas ergonómicas que la planta provee."
+      }
+     ]
+    },
+    {
+     "id": 44,
+     "phase_id": 4,
+     "slug": "n3-lototo",
+     "title": "LOTOTO y máquinas",
+     "description": "El dueño del equipo pone su candado.",
+     "icon": "lock",
+     "order_index": 3,
+     "objective": "Asumir el bloqueo de los equipos de tu territorio y comunicarlo.",
+     "body": "En el nivel 3 el bloqueo ya no es solo cosa de mantenimiento: el dueño del equipo pone su propio candado y su propia tarjeta durante la intervención.\n\nAdemás, los bloqueos en curso se comunican donde la gente los pueda ver: en el puesto de trabajo, en el cuarto de equipo, en el área de permisos o en el tablero principal de LOTOTO, según el tamaño del bloqueo.\n\nAsí, quien llega al turno siguiente sabe qué equipos están intervenidos y por qué no debe intentar arrancarlos.",
+     "vpo_block": "LOTOTO and Machine Safety",
+     "requirements": [
+      {
+       "code": "R.1.7.1.13",
+       "title": "El dueño del equipo asume el LOTOTO",
+       "detail": "El dueño del equipo o del territorio se apropia del LOTOTO durante el mantenimiento, con su propio candado y tarjeta. Los bloqueos en curso se comunican en el puesto de trabajo, en el cuarto de equipo, en el área de permisos o en el tablero principal de LOTOTO, según el alcance del bloqueo."
+      }
+     ]
+    },
+    {
+     "id": 45,
+     "phase_id": 4,
+     "slug": "n3-trabajo-alturas",
+     "title": "Trabajo en alturas",
+     "description": "El territorio responde por las alturas.",
+     "icon": "mountain",
+     "order_index": 4,
+     "objective": "Verificar permisos y condiciones antes de un trabajo en altura en tu área.",
+     "body": "El nivel 3 traslada la responsabilidad a quien está siempre en el área.\n\nComo dueño del territorio, antes de que alguien suba en tu zona:\n\n* Verificas que haya permiso de trabajo válido.\n* Verificas que estén dadas las condiciones: equipo inspeccionado, puntos de anclaje, delimitación del área debajo.\n* Eres dueño de la inspección de los equipos para trabajo en alturas de tu área.\n\nNadie conoce mejor que tú los riesgos de trabajar sobre una tubería de vapor o junto a una descarga de válvula de seguridad.",
+     "vpo_block": "Working at heights",
+     "requirements": [
+      {
+       "code": "R.1.8.1.15",
+       "title": "El dueño del territorio asume el trabajo en alturas",
+       "detail": "No acepta trabajos en altura en su área sin permiso válido, verifica que estén dadas las condiciones antes de que empiecen y es dueño de la inspección de los equipos para trabajo en alturas."
+      }
+     ]
+    },
+    {
+     "id": 46,
+     "phase_id": 4,
+     "slug": "n3-espacios-confinados",
+     "title": "Espacios confinados",
+     "description": "El territorio responde por las entradas.",
+     "icon": "cylinder",
+     "order_index": 5,
+     "objective": "Asumir como propias las entradas a espacios confinados de tu área.",
+     "body": "La misma lógica del trabajo en alturas aplica a los espacios confinados: en el nivel 3 el dueño del territorio responde por lo que pasa en su área.\n\nAntes de que alguien entre a un tanque o a un foso de tu zona, verificas el permiso y las condiciones: mediciones de atmósfera, ventilación, bloqueo del equipo, vigilante asignado y equipo de rescate disponible.\n\nAdemás, eres dueño de la inspección de los equipos de entrada y rescate.",
+     "vpo_block": "Confined Spaces",
+     "requirements": [
+      {
+       "code": "R.1.10.1.8",
+       "title": "El dueño del territorio asume los espacios confinados",
+       "detail": "No acepta entradas a espacios confinados en su área sin permiso válido, verifica que estén dadas las condiciones antes de que empiecen y es dueño de la inspección de los equipos de entrada y de rescate."
+      }
+     ]
+    },
+    {
+     "id": 47,
+     "phase_id": 4,
+     "slug": "n3-emergencias",
+     "title": "Emergencias",
+     "description": "Tu territorio, listo para responder.",
+     "icon": "siren",
+     "order_index": 6,
+     "objective": "Revisar que tu área esté lista para una emergencia.",
+     "body": "En una emergencia, los segundos que se pierden buscando un extintor tapado por estibas o esquivando un obstáculo en la ruta de evacuación pueden ser decisivos.\n\nEn el nivel 3 esa revisión no es de alguien externo: es del dueño del territorio, es decir, tuya.\n\nHaz esta ronda por tu área.",
+     "vpo_block": "Emergency Preparedness and Response",
+     "requirements": [
+      {
+       "code": "R.1.11.1.12",
+       "title": "El dueño del territorio asume la respuesta a emergencias",
+       "detail": "Se asegura de que los equipos de respuesta a emergencias de su área sean de fácil acceso y de que las rutas de evacuación estén libres de obstáculos."
+      }
+     ]
+    },
+    {
+     "id": 48,
+     "phase_id": 4,
+     "slug": "n3-contratistas",
+     "title": "Contratistas",
+     "description": "Integrados en las rutinas del área.",
+     "icon": "users",
+     "order_index": 7,
+     "objective": "Integrar a contratistas y proveedores en las rutinas de seguridad del área.",
+     "body": "En los niveles anteriores el contratista se induce, se supervisa y se monitorea. En el nivel 3 deja de ser alguien de afuera al que se vigila y pasa a formar parte de las rutinas del área.\n\nEso significa que participa en las reuniones de seguridad del cuarto de equipo, en las charlas del puesto de trabajo y en la revisión de los alertas e indicadores, igual que el personal propio.\n\nLa lógica es simple: si comparten los riesgos del área, deben compartir también las conversaciones sobre cómo controlarlos.",
+     "vpo_block": "Contractor and Service Providers Management",
+     "requirements": [
+      {
+       "code": "R.1.12.1.17",
+       "title": "Contratistas en las rutinas del área",
+       "detail": "Los contratistas y proveedores están totalmente integrados en las rutinas de seguridad del puesto de trabajo y del cuarto de equipo del área."
+      }
+     ]
+    },
+    {
+     "id": 49,
+     "phase_id": 4,
+     "slug": "n3-monitoreo-coaching",
+     "title": "Monitoreo y coaching",
+     "description": "Caminatas de la alta gerencia.",
+     "icon": "eye",
+     "order_index": 8,
+     "objective": "Conocer el compromiso de la alta gerencia con el monitoreo en el nivel 3.",
+     "body": "El nivel 3 involucra a la alta gerencia en el terreno:\n\n* Al menos una caminata de seguridad trimestral del equipo directivo de la planta, documentada.\n* Monitoreo y coaching entre áreas, también al menos cada trimestre.\n\nEl monitoreo cruzado tiene una ventaja: alguien de otra área ve con ojos nuevos lo que en Utilities ya se volvió costumbre.",
+     "vpo_block": "Safety Monitoring & Coaching",
+     "requirements": [
+      {
+       "code": "R.1.16.1.10",
+       "title": "Caminatas de seguridad de la alta gerencia",
+       "detail": "El equipo directivo de la planta (director o gerente y sus reportes directos) hace y documenta al menos una caminata de seguridad cada trimestre, y la planta organiza monitoreo y coaching entre áreas al menos cada trimestre."
+      }
+     ]
+    },
+    {
+     "id": 50,
+     "phase_id": 4,
+     "slug": "n3-cumplimiento-legal",
+     "title": "Cumplimiento legal",
+     "description": "La ley, dentro de las rutinas diarias.",
+     "icon": "scale",
+     "order_index": 9,
+     "objective": "Ver cómo la ley deja de ser un documento y se vuelve rutina de trabajo.",
+     "body": "En el nivel 3 el cumplimiento legal deja de vivir en una carpeta y se integra en la forma de trabajar.\n\n* Los líderes se forman en los requisitos legales aplicables, con foco en su responsabilidad personal si no se cumplen. Los nuevos, en sus primeros 6 meses.\n* Las obligaciones legales quedan dentro de los SOP, las órdenes de trabajo, las listas de chequeo y la formación.\n\nCuando el sistema de órdenes de trabajo genera automáticamente la inspección de un recipiente a presión, ahí hay un requisito legal convertido en rutina.",
+     "vpo_block": "Facility compliance",
+     "requirements": [
+      {
+       "code": "R.1.18.1.5",
+       "title": "Formación legal para los líderes",
+       "detail": "La planta forma a los líderes en los requisitos legales que le aplican, con foco en su responsabilidad personal en caso de incumplimiento. El personal nuevo se forma dentro de sus primeros 6 meses."
+      },
+      {
+       "code": "R.1.18.1.6",
+       "title": "Requisitos legales dentro de las rutinas",
+       "detail": "Los requisitos legales y los de permisos y licencias están incorporados en los procesos del área y de la planta (SOP, sistema de órdenes de trabajo, listas de chequeo, formación) y se ejecutan: evaluaciones de riesgo, estudios, equipos de control, reportes, calibración, inspección y mantenimiento, monitoreo y certificaciones."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "slug": "nivel-4",
+   "name": "Referente en seguridad",
+   "description": "Nivel 4 de VPO: el equipo gestiona su propia seguridad. Nota: en la autoevaluación de la planta estos requisitos figuran como no aplicables a Utilities; se incluyen como nivel aspiracional.",
+   "order_index": 4,
+   "unlock_threshold": 70,
+   "theme": "teal",
+   "icon": "sparkles",
+   "nodes": [
+    {
+     "id": 51,
+     "phase_id": 5,
+     "slug": "n4-seguridad-operacional",
+     "title": "Seguridad operacional",
+     "description": "El FLTM gestiona permisos y equipos de izaje.",
+     "icon": "shield",
+     "order_index": 0,
+     "objective": "Pasar de verificar permisos a prepararlos y mantener los equipos.",
+     "body": "En el nivel 3 el dueño del territorio verifica los permisos. En el nivel 4 los prepara.\n\nEl salto es de control a gestión: el FLTM revisa y actualiza los procedimientos (SOP) y las lecciones de un punto (OPL) de su área, redacta los permisos de izaje y responde por los equipos completos: inspección, almacenamiento y rotulado.\n\nQuien opera todos los días es quien mejor sabe cómo debería estar escrito el procedimiento.",
+     "vpo_block": "Operational Safety Management",
+     "requirements": [
+      {
+       "code": "R.1.1.2.13",
+       "title": "Toolkits de evaluación de riesgos en 80% o más",
+       "detail": "Los GOP, toolkits y tableros que apoyan la evaluación de riesgos llegan a al menos 80%, con glidepaths para cerrar las brechas."
+      },
+      {
+       "code": "R.1.1.9.7",
+       "title": "El FLTM gestiona la seguridad de los izajes",
+       "detail": "El FLTM revisa y actualiza los SOP y las OPL, prepara los permisos de trabajo de los izajes de su área y es dueño de los equipos de izaje: además de la inspección, su almacenamiento y su rotulado."
+      }
+     ]
+    },
+    {
+     "id": 52,
+     "phase_id": 5,
+     "slug": "n4-procesos-alto-riesgo",
+     "title": "Procesos de alto riesgo",
+     "description": "Toolkits al 90%.",
+     "icon": "flame",
+     "order_index": 1,
+     "objective": "Conocer el techo de exigencia de los toolkits de alto riesgo.",
+     "body": "El recorrido completo de los toolkits de alto riesgo marca la madurez de la planta:\n\n* Nivel 1: 60%\n* Nivel 2: 70%\n* Nivel 3: 80%\n* Nivel 4: 90%\n\nLlegar al 90% en PSM NH3, SSM y ESM significa que casi todo lo que el estándar global espera de un sistema de amoníaco, de vapor y eléctrico ya está implementado y funcionando.",
+     "vpo_block": "High Risk Processes Management",
+     "requirements": [
+      {
+       "code": "R.1.3.1.27",
+       "title": "Toolkit PSM NH3 en 90% o más",
+       "detail": "El toolkit de amoníaco alcanza al menos 90%, con glidepaths para cerrar las brechas que queden."
+      },
+      {
+       "code": "R.1.3.1.29",
+       "title": "Toolkit SSM en 90% o más",
+       "detail": "El toolkit de seguridad en vapor alcanza al menos 90%, con glidepaths para cerrar brechas."
+      },
+      {
+       "code": "R.1.3.1.30",
+       "title": "Toolkit ESM en 90% o más",
+       "detail": "El toolkit de seguridad eléctrica alcanza al menos 90%, con glidepaths para cerrar brechas."
+      }
+     ]
+    },
+    {
+     "id": 53,
+     "phase_id": 5,
+     "slug": "n4-ergonomia",
+     "title": "Ergonomía y cargas",
+     "description": "El FLTM propone y mide.",
+     "icon": "package",
+     "order_index": 2,
+     "objective": "Pasar de aplicar las medidas a proponerlas y medir su efecto.",
+     "body": "En el nivel 3 usas las ayudas que la planta puso. En el nivel 4 propones las que faltan.\n\nVPO espera tres cosas del FLTM:\n\n* Proponer medidas concretas para reducir el esfuerzo y las posturas forzadas.\n* Usar el mapa de riesgos ergonómicos del área para saber dónde están los puntos críticos.\n* Definir y seguir indicadores que muestren si las medidas funcionaron.\n\nUna propuesta con un indicador detrás es mucho más difícil de ignorar.",
+     "vpo_block": "Material Handling and Ergonomics",
+     "requirements": [
+      {
+       "code": "R.1.5.1.5",
+       "title": "Participación activa del FLTM en ergonomía",
+       "detail": "El FLTM propone medidas para reducir los riesgos de manipulación de cargas y ergonomía, usa el mapa de riesgos ergonómicos de su área y define y sigue indicadores para medir el impacto de esas medidas."
+      }
+     ]
+    },
+    {
+     "id": 54,
+     "phase_id": 5,
+     "slug": "n4-lototo",
+     "title": "LOTOTO y máquinas",
+     "description": "Máquinas certificadas y tableros sombra.",
+     "icon": "lock",
+     "order_index": 3,
+     "objective": "Reconocer el estándar de máquinas y el tablero sombra de bloqueo.",
+     "body": "El nivel 4 cierra el círculo del bloqueo con dos medidas físicas:\n\n* Las máquinas de nivel 1 y 2 del Global Heat Map cumplen la norma global de seguridad de máquinas (GTS.GEN.SFT.GSP.007).\n* Cada equipo crítico tiene su propio equipo de bloqueo en un tablero sombra: candados, tarjetas y dispositivos de aislamiento con su silueta marcada.\n\nEl tablero sombra no es orden por estética: de un vistazo se ve si falta un dispositivo, y nadie tiene que improvisar un bloqueo porque no encontró el elemento correcto.",
+     "vpo_block": "LOTOTO and Machine Safety",
+     "requirements": [
+      {
+       "code": "R.1.7.1.15",
+       "title": "Máquinas nivel 1 y 2 según el estándar de seguridad de máquinas",
+       "detail": "Todas las máquinas de nivel 1 y 2 del Global Heat Map cumplen la norma GTS.GEN.SFT.GSP.007 de seguridad de máquinas."
+      },
+      {
+       "code": "R.1.7.1.16",
+       "title": "Equipo de bloqueo específico en tableros sombra",
+       "detail": "Los equipos críticos tienen su equipo de SAM y LOTOTO específico dispuesto en tableros sombra: recipientes de cocimiento, dosificación, transferencia de materias primas, amoníaco, vapor y condensado, CO2 y N2, lavadoras y pasteurizadores, máquinas de acceso corporal en envasado, llenadoras, prensas, AGV, alta tensión y todos los espacios confinados."
+      }
+     ]
+    },
+    {
+     "id": 55,
+     "phase_id": 5,
+     "slug": "n4-trabajo-alturas",
+     "title": "Trabajo en alturas",
+     "description": "El FLTM prepara los permisos.",
+     "icon": "mountain",
+     "order_index": 4,
+     "objective": "Asumir la gestión completa del trabajo en alturas del área.",
+     "body": "Mismo salto que en izajes: del control a la gestión.\n\nEn el nivel 3 verificabas que hubiera permiso. En el nivel 4 lo preparas, mantienes al día los procedimientos de tu área y respondes por los equipos de protección contra caídas, incluido cómo se guardan y se identifican.\n\nUn arnés bien guardado dura más y falla menos que uno colgado de un clavo.",
+     "vpo_block": "Working at heights",
+     "requirements": [
+      {
+       "code": "R.1.8.1.16",
+       "title": "El FLTM gestiona la seguridad del trabajo en alturas",
+       "detail": "Revisa y actualiza los SOP y las OPL, prepara los permisos de trabajo en alturas de su área y es dueño de los equipos: además de la inspección, su almacenamiento y su rotulado."
+      }
+     ]
+    },
+    {
+     "id": 56,
+     "phase_id": 5,
+     "slug": "n4-espacios-confinados",
+     "title": "Espacios confinados",
+     "description": "Procedimientos y permisos desde el área.",
+     "icon": "cylinder",
+     "order_index": 5,
+     "objective": "Gestionar los procedimientos y equipos de entrada del área.",
+     "body": "En el nivel 2 cada espacio confinado recibió su procedimiento propio. En el nivel 4 ese procedimiento lo mantiene quien trabaja en el área.\n\nEl FLTM revisa y actualiza los SOP y las OPL, prepara los permisos de entrada y responde por los equipos de entrada y rescate: medidores, ventilación, trípodes y arneses, incluido cómo se guardan y se rotulan.\n\nNadie conoce mejor las trampas de un tanque que quien lo abre cada parada.",
+     "vpo_block": "Confined Spaces",
+     "requirements": [
+      {
+       "code": "R.1.10.1.9",
+       "title": "El FLTM gestiona la seguridad de los espacios confinados",
+       "detail": "Revisa y actualiza los SOP y las OPL, prepara los permisos de entrada de su área y es dueño de los equipos de espacios confinados: además de la inspección, su almacenamiento y su rotulado."
+      }
+     ]
+    },
+    {
+     "id": 57,
+     "phase_id": 5,
+     "slug": "n4-emergencias",
+     "title": "Emergencias",
+     "description": "Procedimientos y equipos del área.",
+     "icon": "siren",
+     "order_index": 6,
+     "objective": "Mantener vivos los procedimientos y equipos de emergencia del área.",
+     "body": "En el nivel 3 recorrías tu área para comprobar que los extintores estuvieran despejados y las rutas libres. En el nivel 4 eres dueño de la inspección de esos equipos y mantienes al día los procedimientos.\n\nEso significa que cuando cambia algo en tu área (una línea nueva, un tanque que se mueve, una ruta que se modifica), el procedimiento de emergencia se actualiza contigo, no meses después.\n\nUn plan de emergencia desactualizado es peligroso justo por ser creíble: la gente confía en él.",
+     "vpo_block": "Emergency Preparedness and Response",
+     "requirements": [
+      {
+       "code": "R.1.11.1.14",
+       "title": "El FLTM gestiona la respuesta a emergencias del área",
+       "detail": "Revisa y actualiza los SOP y las OPL de respuesta a emergencias y es dueño de la inspección de los equipos de emergencia de su área."
+      }
+     ]
+    },
+    {
+     "id": 58,
+     "phase_id": 5,
+     "slug": "n4-monitoreo-coaching",
+     "title": "Monitoreo y coaching",
+     "description": "Observación entre pares y tecnología.",
+     "icon": "eye",
+     "order_index": 7,
+     "objective": "Entender la observación entre pares y el papel de la tecnología.",
+     "body": "Hasta el nivel 3, quien observa es el líder. En el nivel 4 el FLTM se observa entre pares: al menos el 40% del equipo formado en observación de comportamientos (SBO) y coaching.\n\nEs un cambio grande de cultura. Que un compañero te diga 'oye, así te puedes lastimar' funciona distinto a que te lo diga el jefe, y el monitoreo del área pasa a ser del propio equipo.\n\nA esto se suma la tecnología (cámaras inteligentes, telemetría, sensores corporales, drones, sensores de presencia), siempre con el mismo propósito: detectar la brecha antes de que se convierta en un incidente.",
+     "vpo_block": "Safety Monitoring & Coaching",
+     "requirements": [
+      {
+       "code": "R.1.16.1.11",
+       "title": "Observación entre pares y monitoreo del FLTM",
+       "detail": "Hay un programa documentado de observación de comportamientos (SBO) y coaching entre pares del FLTM, con al menos el 40% del FLTM formado, y el monitoreo de seguridad del área lo asume el propio FLTM."
+      },
+      {
+       "code": "R.1.16.1.12",
+       "title": "Tecnología para el monitoreo de seguridad",
+       "detail": "Se usa tecnología para capturar, documentar y gestionar condiciones inseguras y comportamientos seguros e inseguros: cámaras inteligentes o CCTV, telemetría, sensores corporales, drones, robots de detección y sensores de presencia. El objetivo es trabajar de forma proactiva, identificando brechas antes de que ocurra el incidente."
+      }
+     ]
+    },
+    {
+     "id": 59,
+     "phase_id": 5,
+     "slug": "n4-cultura-seguridad",
+     "title": "Cultura de seguridad",
+     "description": "Política aplicada, factores humanos y territorios.",
+     "icon": "handshake",
+     "order_index": 8,
+     "objective": "Aplicar la política en la rutina y reconocer los factores humanos.",
+     "body": "El nivel 4 es el de la cultura: la seguridad deja de ser un conjunto de reglas y se vuelve la forma normal de trabajar.\n\nTres señales de que se llegó:\n\n* Cualquiera puede explicar cómo aplica la Política Global en su turno: sin atajos, todos somos líderes en seguridad.\n* Los líderes tienen en cuenta los factores humanos: fatiga, estrés, falta de experiencia, formación insuficiente, supervisión deficiente o problemas personales.\n* Al menos el 80% de los territorios llegó al nivel 3 de seguridad territorial.",
+     "vpo_block": "Behavioral Safety Culture",
+     "requirements": [
+      {
+       "code": "R.1.17.9.9",
+       "title": "El FLTM se apropia de la Política Global de Seguridad",
+       "detail": "El FLTM demuestra cómo aplica la Política Global en su rutina diaria y puede responder: cómo contribuye a eliminar la exposición al riesgo, cómo ayuda VPO a mejorar la seguridad, qué significa que todos somos líderes en seguridad y qué significa no tomar atajos."
+      },
+      {
+       "code": "R.1.17.9.11",
+       "title": "Concepto de factores humanos aplicado",
+       "detail": "Los líderes usan el concepto de factores humanos en su rutina: cualquier característica de una persona que afecte su capacidad de hacer una tarea de forma segura, como fatiga, estrés, falta de experiencia, formación insuficiente, supervisión deficiente o problemas personales."
+      },
+      {
+       "code": "R.1.17.9.12",
+       "title": "Seguridad territorial en nivel 3",
+       "detail": "Al menos el 80% de los territorios alcanza como mínimo el nivel 3 de seguridad territorial, evaluado con los criterios globales."
+      }
+     ]
+    },
+    {
+     "id": 60,
+     "phase_id": 5,
+     "slug": "n4-cumplimiento-legal",
+     "title": "Cumplimiento legal",
+     "description": "El FLTM conoce lo que le aplica.",
+     "icon": "scale",
+     "order_index": 9,
+     "objective": "Cerrar el recorrido sabiendo qué exige la ley en tu área.",
+     "body": "El cumplimiento legal recorrió todo el mapa: en el nivel 0 la planta identifica qué leyes le aplican, en el 1 las mantiene al día, en el 3 forma a los líderes y las mete en las rutinas.\n\nEn el nivel 4 llega hasta el final de la línea: cada integrante del equipo sabe, por formación, cuáles son los principales requisitos legales de seguridad y salud que aplican a su trabajo y a su área.\n\nEs el cierre natural de la ruta: ya no se cumple porque alguien revisa, sino porque el equipo sabe qué se espera y por qué.",
+     "vpo_block": "Facility compliance",
+     "requirements": [
+      {
+       "code": "R.1.18.1.7",
+       "title": "El FLTM conoce los requisitos legales de su área",
+       "detail": "El FLTM tiene, por formación, conocimiento de los principales requisitos legales de seguridad y salud en el trabajo que le aplican a él y a su área."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "badges": [
+  {
+   "id": 1,
+   "slug": "primer-paso",
+   "name": "Primer paso",
+   "description": "Marcaste tu primer tema como cumplido.",
+   "icon": "rocket",
+   "theme": "mint",
+   "rule_type": "FIRST_REQUIREMENT_MET",
+   "rule_ref": null
+  },
+  {
+   "id": 2,
+   "slug": "cimientos-vpo",
+   "name": "Cimientos VPO",
+   "description": "El nivel 0 cumple el 100% de sus temas.",
+   "icon": "shield",
+   "theme": "mint",
+   "rule_type": "PHASE_COMPLIANT",
+   "rule_ref": "nivel-0"
+  },
+  {
+   "id": 3,
+   "slug": "control-del-riesgo",
+   "name": "Control del riesgo",
+   "description": "El nivel 1 alcanza el 90% de cumplimiento.",
+   "icon": "gauge",
+   "theme": "sky",
+   "rule_type": "PHASE_COMPLIANT",
+   "rule_ref": "nivel-1"
+  },
+  {
+   "id": 4,
+   "slug": "gestion-proactiva",
+   "name": "Gestión proactiva",
+   "description": "El nivel 2 alcanza el 80% de cumplimiento.",
+   "icon": "target",
+   "theme": "amber",
+   "rule_type": "PHASE_COMPLIANT",
+   "rule_ref": "nivel-2"
+  },
+  {
+   "id": 5,
+   "slug": "duenos-del-territorio",
+   "name": "Dueños del territorio",
+   "description": "El nivel 3 alcanza el 70% de cumplimiento.",
+   "icon": "handshake",
+   "theme": "grape",
+   "rule_type": "PHASE_COMPLIANT",
+   "rule_ref": "nivel-3"
+  },
+  {
+   "id": 6,
+   "slug": "maestro-utilities",
+   "name": "Maestro Utilities",
+   "description": "Los cinco niveles alcanzan su umbral de cumplimiento.",
+   "icon": "trophy",
+   "theme": "teal",
+   "rule_type": "COURSE_COMPLIANT",
+   "rule_ref": null
+  }
+ ]
+}

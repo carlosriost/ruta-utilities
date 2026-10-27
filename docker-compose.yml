@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# Ruta Utilities - PostgreSQL para desarrollo local (OPCIONAL)
+#
+# Opcion A: usa tu instalacion local de PostgreSQL y no necesitas este archivo.
+# Opcion B: levanta solo la base de datos con Docker:
+#
+#     docker compose up -d postgres
+#
+# React y FastAPI se ejecutan directamente en tu computador.
+# ---------------------------------------------------------------------------
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: ruta-utilities-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ruta_utilities}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      # Volumen persistente: los datos sobreviven a docker compose down.
+      - ruta_utilities_data:/var/lib/postgresql/data
+      # Crea tambien la base de datos usada por los tests.
+      - ./scripts/init-test-db.sql:/docker-entrypoint-initdb.d/10-test-db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-ruta_utilities}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  ruta_utilities_data:
+    name: ruta_utilities_data

@@ -1,0 +1,117 @@
+/* Las tipografias se cargan fuera de este archivo:
+   - version servida: <link> en index.html
+   - version descargable: src/offline/fonts.css (incrustadas en base64) */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Design tokens en CSS. Duplican los de tailwind.config.js para poder usarlos
+   dentro de SVG y gradientes. Cambiar el branding = cambiar estos valores.
+--------------------------------------------------------------------------- */
+:root {
+  --brand-gold: #f5b301;
+  --brand-gold-soft: #ffd75e;
+  --brand-blue: #1f4fd8;
+  --brand-ink: #16233a;
+  --brand-cream: #fffcf3;
+
+  --zone-mint: #2fbf87;
+  --zone-mint-soft: #d6f6e7;
+  --zone-sky: #2e8fea;
+  --zone-sky-soft: #dcedfd;
+  --zone-amber: #f09520;
+  --zone-amber-soft: #feebd2;
+  --zone-grape: #7c5ce0;
+  --zone-grape-soft: #e8e1fc;
+  --zone-teal: #0fa3a3;
+  --zone-teal-soft: #d3f1f1;
+
+  --state-locked: #b7c0d0;
+  --state-locked-soft: #edf1f6;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-brand-cream text-brand-ink font-sans antialiased;
+    /* Nunca scroll horizontal accidental. */
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+
+  /* Accesibilidad: foco siempre visible con teclado. */
+  :focus-visible {
+    outline: 3px solid var(--brand-blue);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .card-soft {
+    @apply rounded-card bg-white shadow-soft border border-black/5;
+  }
+
+  .btn-base {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill font-bold
+           transition-transform duration-150 active:scale-[0.97]
+           disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100;
+  }
+
+  .sky-bg {
+    background:
+      radial-gradient(1200px 500px at 10% -10%, #ffffff 0%, rgba(255, 255, 255, 0) 60%),
+      radial-gradient(900px 400px at 90% 0%, var(--zone-sky-soft) 0%, rgba(255, 255, 255, 0) 55%),
+      linear-gradient(180deg, #f4faff 0%, var(--brand-cream) 45%, #fdf7e8 100%);
+  }
+
+  .skeleton {
+    @apply relative overflow-hidden bg-state-lockedsoft rounded-xl;
+  }
+
+  .skeleton::after {
+    content: '';
+    @apply absolute inset-0 -translate-x-full animate-shimmer;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+  }
+}
+
+/* Barra de scroll discreta y coherente con la paleta. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #dfe6f0;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c6d2e2;
+  background-clip: content-box;
+}

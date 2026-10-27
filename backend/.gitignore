@@ -1,0 +1,13 @@
+# Entornos virtuales y dependencias de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Configuracion local con credenciales
+.env
+
+# Caches de herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

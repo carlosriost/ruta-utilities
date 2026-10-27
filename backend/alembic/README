@@ -1,0 +1,10 @@
+Migraciones de Ruta Utilities.
+
+Crear una migracion nueva a partir de los modelos:
+    alembic revision --autogenerate -m "descripcion"
+
+Aplicar las migraciones:
+    alembic upgrade head
+
+Volver una version atras:
+    alembic downgrade -1

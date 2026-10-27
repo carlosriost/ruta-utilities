@@ -1,0 +1,1482 @@
+[
+ {
+  "code": "R.1.1.2.1",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "Risk Assessment SOP implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.2",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "Risk Assessment Roles & Responsibilities, execute a training program, supported by the SKAP process or siimilar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.3",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "Risk Assessment strategy",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.6.1",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "PPE & CPE",
+  "requirement": "PPE program, proper availability and usage of adequate PPE",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.6.2",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "PPE & CPE",
+  "requirement": "CPE program, proper availability and usage of adequate CPE",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.8.1",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Work Permit",
+  "requirement": "Work Permit SOP implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.8.2",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Work Permit",
+  "requirement": "Work Permit Roles & Responsibilities, execute a training program, supported by the SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.9.1",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Lifting activities",
+  "requirement": "Lifting activities SOP implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.9.2",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Lifting activities",
+  "requirement": "Lifting activities Roles & Responsibilities, execute a training program, supported by the SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.11.1",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Safety of Temporary workers",
+  "requirement": "Ensure adequate Safety supervisvion for the Temporary Workers",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.11.2",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Safety of Temporary workers",
+  "requirement": "Provide adequate general and task based (safety) training and ensure that the Temporary Workers are only employed for the tasks they have been trained for",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.11.3",
+  "level": 0,
+  "block": "Operational Safety Management",
+  "process": "Safety of Temporary workers",
+  "requirement": "Implement a proper Management of Change process when employing Temporary Workers",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.2.1.1",
+  "level": 0,
+  "block": "Incident Reporting & Management",
+  "process": "Incident Reporting & Management",
+  "requirement": "All Fatalities, SIF Actual, TRI, SIF precursors, SIF potential and occupational illnesses properly documented in the Global Incident Reporting tool",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.1",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "All contractors and service providers working on or operating equipment or working in risk areas shall be pre-qualified, inducted, and adequately supervised: a) NH3 refrigeration systems b) Dust explosion equipment and areas c) Steam, HPHW and condensate systems d) Electrical systems e) Pressure vessels f) Flammable & combustible gasses & liquids g) CO2 / N2 systems",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.2",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Specific work permit, Line & Equipment Entry Permit (if applicable) and SAFE Form for all non-routine works on high risk processes a) NH3 refrigeration systems and areas b) Dust explosion equipment and areas c) Steam, HPHW and condensate systems d) Electrical systems e) Pressure vessels f) Flammable & combustible gasses & liquids g) CO2 / N2 systems",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.3",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "A procedure / MOC process for identifying, assessing, authorizing, implementing, and documenting changes (other than replacement in kind) for a) NH3 refrigeration systems b) Dust explosion equipment and areas c) Steam, HPHW and condensate systems d) Electrical systems e) Pressure vessels f) Flammable & combustible gasses & liquids g) CO2 / N2 systems",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.4",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Up to date emergency and operational response plan to manage Emergency situation related to high risk processes. FLTM properly trained and drills done to ensure effectives of the program. a) NH3 refrigeration systems b) Dust explosion equipment and areas c) Steam, HPHW and condensate systems d) Electrical systems e) Pressure vessels f) Flammable & combustible gasses & liquids g) CO2 / N2 systems",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.5",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Safety Roles & Responsibilities for the High Risk Processes properly defined and training program defined and executed; supported by SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.2.2",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "NH3",
+  "requirement": "PPE program, proper availability and usage of adequate PPE, portable / personal ammonia detectors, communication means and adequate CPE (safety showers, eye wash stations,...)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.5.1",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "Electrical Safety Management",
+  "requirement": "Specific Electrical work permit. Risk assessment and specific facility and zone validation for energized electrical works",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.6.1",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "Pressure Vessels",
+  "requirement": "Inventory of all the Pressure Vessels, PRV, VRV",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.6.2",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "Pressure Vessels",
+  "requirement": "Pressure vessels, PRV, VRV inspected, calibrated / certified and maintained in accordance with the legal requirements (REMOVED>and / or AB-InBev requirements, whatever more stringent.)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.8.1",
+  "level": 0,
+  "block": "High Risk Processes Management",
+  "process": "CO2 & N2",
+  "requirement": "Quick-scan risk assessment to identify if there is a (potential) risk for exposure to elevated levels of CO2 / N2. If affirmative: up to date risk and CO2 / N2 monitoring assessment",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.4.1.3",
+  "level": 0,
+  "block": "Workplace Transport",
+  "process": "Workplace Transport Safety",
+  "requirement": "Implement safe operation rules for all powered and not powered transport equipment",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.4.1.7",
+  "level": 0,
+  "block": "Workplace Transport",
+  "process": "Workplace Transport Safety",
+  "requirement": "Workplace transport safety Roles & Responsibilities, execute a training program, supported by the SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.4.1.8",
+  "level": 0,
+  "block": "Workplace Transport",
+  "process": "Workplace Transport Safety",
+  "requirement": "Develop and execute a procedure and engineering controls to eliminate pedestrian - powered transport equipment interaction (man- machine interaction) in warehouses and yards (such as for cleaning, sample taking, stock , sorting activities, maintenance activities, manual loading & unloading activities)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.4.1.9",
+  "level": 0,
+  "block": "Workplace Transport",
+  "process": "Workplace Transport Safety",
+  "requirement": "Loading/Unloading procedure written, complete, executed and available to employees.",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.1",
+  "level": 0,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Execute a PPE program for handling hazardous substances",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.2",
+  "level": 0,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Hazardous substances management complying to legal requirements",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.3",
+  "level": 0,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Execute a CPE (Collective Protective equipment) program to mitigate the risks of hazardous substances",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.4",
+  "level": 0,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Inventory and plan with storage locations of Hazardous substances available",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.5",
+  "level": 0,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Apply a procedure / MOC process for identifying, assessing, authorizing, implementing, and documenting changes regarding hazardous substances",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.7.1.1",
+  "level": 0,
+  "block": "LOTOTO and Machine Safety",
+  "process": "LOTOTO and Machine Safety",
+  "requirement": "General SAM / LOTOTO and jogging SOP implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.7.1.2",
+  "level": 0,
+  "block": "LOTOTO and Machine Safety",
+  "process": "LOTOTO and Machine Safety",
+  "requirement": "AB-InBev does initial LOTOTO. Contractors add lock.",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.7.1.3",
+  "level": 0,
+  "block": "LOTOTO and Machine Safety",
+  "process": "LOTOTO and Machine Safety",
+  "requirement": "SAM & LOTOTO Roles & Responsibilities, execute a training program supported by the SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.7.1.4",
+  "level": 0,
+  "block": "LOTOTO and Machine Safety",
+  "process": "LOTOTO and Machine Safety",
+  "requirement": "List of Employees authorized for LOTOTO",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.8.1.1",
+  "level": 0,
+  "block": "Working at heights",
+  "process": "Working at heights",
+  "requirement": "Use of a work permit for working at heights",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.8.1.3",
+  "level": 0,
+  "block": "Working at heights",
+  "process": "Working at heights",
+  "requirement": "Use of fall arrest equipment above 2 m (6, 5 ft)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.10.1.1",
+  "level": 0,
+  "block": "Confined Spaces",
+  "process": "Confined spaces entry",
+  "requirement": "Use of a work permit for confined space entry",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.10.1.2",
+  "level": 0,
+  "block": "Confined Spaces",
+  "process": "Confined spaces entry",
+  "requirement": "Provide Confined Space entry safety supervision, including emergency response",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.10.1.3",
+  "level": 0,
+  "block": "Confined Spaces",
+  "process": "Confined spaces entry",
+  "requirement": "Risk assessment to identify confined spaces on site, resulting in a confined space inventory and SOP (confined space written program)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.10.1.4",
+  "level": 0,
+  "block": "Confined Spaces",
+  "process": "Confined spaces entry",
+  "requirement": "Confined Spaces Roles & Responsibilities, execute a training program, supported by the SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.11.1.3",
+  "level": 0,
+  "block": "Emergency Preparedness and Response",
+  "process": "Emergency Preparedness and Response",
+  "requirement": "Emergency Response Roles & Responsibilities, execute a training program, supported by the SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.1",
+  "level": 0,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "General work permit(start-up document) for all contractor & not-permanent service provider works",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.2",
+  "level": 0,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Specific work permit for critical tasks (step 7)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.3",
+  "level": 0,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Provide general and task-based safety induction (step 4)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.4",
+  "level": 0,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Provide adequate safety supervision (6)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.5",
+  "level": 0,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Contractor and Service Providers SOP (contractor written program) implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.6",
+  "level": 0,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Contractor and Service Providers skill verification (step 5)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.7",
+  "level": 0,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Last check for critical tasks (6)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.8",
+  "level": 0,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Contractor and Service Providers Safety Management Roles & Responsibilities, execute a training program, supported by the SKAP process or or similar process.",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.14.1.1",
+  "level": 0,
+  "block": "SIF Management",
+  "process": "SIF Management",
+  "requirement": "Life Saving Rules in place and implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.16.1.1",
+  "level": 0,
+  "block": "Safety Monitoring & Coaching",
+  "process": "Safety Monitoring & coaching",
+  "requirement": "Safety Monitoring & Coaching Program implemented and documented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.16.1.2",
+  "level": 0,
+  "block": "Safety Monitoring & Coaching",
+  "process": "Safety Monitoring & coaching",
+  "requirement": "Safety Monitoring & Coaching, Roles & Responsibilities, execute a training program, supported by the SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.17.1.1",
+  "level": 0,
+  "block": "Behavioral Safety Culture",
+  "process": "Behavioral Safety Culture",
+  "requirement": "Behavioral Safety Roles & Responsibilities, execute a training program supported by SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.17.2.1",
+  "level": 0,
+  "block": "Behavioral Safety Culture",
+  "process": "Global Safety Policy",
+  "requirement": "Global Safety Policy implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.18.1.1",
+  "level": 0,
+  "block": "Facility compliance",
+  "process": "Legal compliance",
+  "requirement": "Identify the legal Health and Safety requirements that are applicable for the facility, including the requirements related to licenses and permits",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.6",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "Use of SAFE form for non-routine task",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.7",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "Up to date Inventories",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.8",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "Risk assessment process owned by Managers",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.9",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "FLTM, contractors and service providers knowledge about risks and mitigation measures",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.3.1",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "General Safety Management / Strategy",
+  "requirement": "Use of certified safety equipment",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.3.2",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "General Safety Management / Strategy",
+  "requirement": "Safety Dream and Safety Strategy of the facility defined (aligned with Zone and Global Safety strategies) and resulting in programs / projects / action plans / initiatives to implement the strategy.",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.5.1",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "MOC",
+  "requirement": "Use of GTS for new AND second hand equipment, including new buildings, areas, processes)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.8.4",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "Work Permit",
+  "requirement": "List of authorized employees for Work permit process is available and updated",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.9.3",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "Lifting activities",
+  "requirement": "Lifting equipment (including anchor points) in good order and regularly inspected",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.9.4",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "Lifting activities",
+  "requirement": "Non-routine lifting activities by contractors and service providers Safety plans, methods statements, pre-qualified, inducted, and adequately supervised",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.11.4",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "Safety of Temporary workers",
+  "requirement": "Include the safety requirements inside the contract with the agency supplying the Temporary Workers",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.12.1",
+  "level": 1,
+  "block": "Operational Safety Management",
+  "process": "Lone worker Safety",
+  "requirement": "Mitigate the risks of working alone",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.2.1.3",
+  "level": 1,
+  "block": "Incident Reporting & Management",
+  "process": "Incident Reporting & Management",
+  "requirement": "24 Hour Notification email sent within 24 hours for every LTI, MDI, MTI and SIF Actual and SIF Potential.",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.2.1.4",
+  "level": 1,
+  "block": "Incident Reporting & Management",
+  "process": "Incident Reporting & Management",
+  "requirement": "Completed investigation for every LTI MDI, MTI and SIF Actual & Potential within 7 days.",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.2.1.5",
+  "level": 1,
+  "block": "Incident Reporting & Management",
+  "process": "Incident Reporting & Management",
+  "requirement": "Track action of RCA to completion, using hierarchy of control pyramid",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.2.1.6",
+  "level": 1,
+  "block": "Incident Reporting & Management",
+  "process": "Incident Reporting & Management",
+  "requirement": "All Incident (near misses), hazards (conditions and behaviors) and FAI Reported in an auditable reporting system of the facility. (Guardians)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.6",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Ensure and maintain adequate signage to identify piping, equipment, areas and to inform FLTM about hazards, preventive measures and emergency response for a) NH3 refrigeration systems b) Dust explosion equipment and areas (zoning) c) Steam, HPHW and condensate systems d) Electrical systems e) Pressure vessels (including equipment number and calibration time) of the pressure vessels, PRV and VRV. f) Flammable & combustible gasses & liquids and areas (zoning) g) CO2 / N2 systems",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.7",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit PSM NH3 = 60 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.9",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit DEPSM = 60 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.11",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit SSM = 60 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.12",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit ESM = 60 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.13",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Action plans to covers the gaps related to High Risk Processes",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.2.4",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "NH3",
+  "requirement": "All stand-by (or back-up) equipment adequately risk assessed, monitored, inspected & maintained and abandoned equipment (equipment put out of service) is completely emptied and mechanically and electrically disconnected from the existing operational system",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.2.7",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "NH3",
+  "requirement": "Execute a NH3 Inspection, testing and preventive maintenance program and a detailed mechanical integrity program",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.3.1",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "Dust Explosion Prevention",
+  "requirement": "Quick-scan risk assessment to identify if there are materials processed that can cause dust explosions. If Affirmative: up to date dust explosion risk assessment and PHA",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.4.1",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "Steam Safety Management",
+  "requirement": "Up to date Steam, HPWH and condensate systems risk Assessment, PHA (including the prevention of water hammer). Review GTS ( for gaps in technical standards.)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.4.2",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "Steam Safety Management",
+  "requirement": "Up to date Steam, HPHW & condensate documentation and SOPs according to legal and AB-InBev SSM requirements",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.6.3",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "Pressure Vessels",
+  "requirement": "Pressure vessels, PRV, VRV inspected, calibrated / certified and maintained in accordance with the legal requirements and / or AB-InBev requirements, whatever more stringent.",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.6.4",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "Pressure Vessels",
+  "requirement": "Up to date Risk Assessment and PHA of pressure vessels, PRV, VRV",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.7.1",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "Flammable & Combustible Gasses & Liquids (FCGL)",
+  "requirement": "Quick-scan risk assessment to identify if there are any (FCGL - Flammable and combustible gasses and liquids )on site. If affirmative, up to date risk assessment. PHA only required for storage in bulk tanks. Review GTS for gaps in technical standards Definition of Flammable and combustible gasses and liquids check local legislation. If not available: A flammable liquid is defined by NFPA as a liquid whose flash point does not exceed 100°F (37.8°C), when tested by closed-cup test methods, while a combustible liquid is one whose flash point is 100°F (37.8°C) or higher, also when tested by closed-cup methods. NOTE: this chapter is always applicable for NH3",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.7.2",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "Flammable & Combustible Gasses & Liquids (FCGL)",
+  "requirement": "Up to date FCGL - Flammable and combustible gasses and liquids documentation and SOPs according to legal and AB-InBev requirements",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.7.4",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "Flammable & Combustible Gasses & Liquids (FCGL)",
+  "requirement": "Execute a FCGL - Flammable and combustible gasses and liquids Inspection, testing and preventive maintenance program",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.8.2",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "CO2 & N2",
+  "requirement": "Up to date CO2 / N2 documentation and SOPs according to legal and AB-InBev Requirements",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.8.4",
+  "level": 1,
+  "block": "High Risk Processes Management",
+  "process": "CO2 & N2",
+  "requirement": "Execute a CO2 / N2 Inspection, testing and preventive maintenance program",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.4.1.15",
+  "level": 1,
+  "block": "Workplace Transport",
+  "process": "Workplace Transport Safety",
+  "requirement": "Pre-shift inspection of powered and not-powered transport equipment executed and documented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.4.1.21",
+  "level": 1,
+  "block": "Workplace Transport",
+  "process": "Workplace Transport Safety",
+  "requirement": "Ensure safe racking and MOC when changes",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.6",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Up to date hazardous substances Risk Assessment, based upon legal and AB-InBev requirements, including GTS ( for gaps in technical standards). Action plan in place",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.7",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Hazardous Substances safety Roles & Responsibilities, execute a training program, supported by the SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.8",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "SDS of hazardous substances available, transformed in one-pagers that summarize main ES information,",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.9",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "FLTM can explain the hazards of the hazardous substances in their area, the measures to mitigate the safety risks and implements the applicable SOPs",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.10",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Compatibility study done, matrix available in the required locations.",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.11",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Safe storage of hazardous substances (Combine?)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.12",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Safe storage of hazardous substances in bulk tanks",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.13",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Develop and execute a procedure and engineering controls for safe Loading and Unloading of hazardous substances (Combine?)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.15",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Ensure and maintain adequate signage to identify hazardous substances and equipment and to inform FLTM about hazards, preventive measures and emergency response",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.16",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Develop and execute a procedure and engineering controls for Legionella control measures for Cooling Towers and Evaporative Condensers",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.17",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Develop and execute a procedure and engineering controls for Asbestos control",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.18",
+  "level": 1,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Develop and execute a procedure and engineering controls for PCB (askarel) control",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.7.1.6",
+  "level": 1,
+  "block": "LOTOTO and Machine Safety",
+  "process": "LOTOTO and Machine Safety",
+  "requirement": "Specific SAM / LOTOTO and jogging detailed SOPs for critical equipment implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.8.1.11",
+  "level": 1,
+  "block": "Working at heights",
+  "process": "Working at heights",
+  "requirement": "Working at height equipment used, in good order and regularly inspected",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.10.1.5",
+  "level": 1,
+  "block": "Confined Spaces",
+  "process": "Confined spaces entry",
+  "requirement": "Confined space entry and monitoring equipment used, in good order and regularly inspected",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.11.1.4",
+  "level": 1,
+  "block": "Emergency Preparedness and Response",
+  "process": "Emergency Preparedness and Response",
+  "requirement": "The facility shall test frequently the emergency preparedness and response (drills)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.11",
+  "level": 1,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Contractor Pre-job risk assessment via Safety plans and method statements (step 3)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.12",
+  "level": 1,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Contractor and Service provider safety is part of the safety monitoring routines",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.13.1.1",
+  "level": 1,
+  "block": "Occupational Health",
+  "process": "Occupational Health",
+  "requirement": "Occupational Health Roles & Responsibilities, execute a training program supported by SKAP process or similar process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.13.1.2",
+  "level": 1,
+  "block": "Occupational Health",
+  "process": "Occupational Health",
+  "requirement": "OHHRA and Occupational Health Programs covers Contractors and Service Providers (and their specific tasks)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.13.1.4",
+  "level": 1,
+  "block": "Occupational Health",
+  "process": "Occupational Health",
+  "requirement": "FLTM knowledge of health hazards",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.14.1.2",
+  "level": 1,
+  "block": "SIF Management",
+  "process": "SIF Management",
+  "requirement": "SIF precursor reporting process implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.17.3.1",
+  "level": 1,
+  "block": "Behavioral Safety Culture",
+  "process": "Territorial Safety",
+  "requirement": "Territorial Safety Strategy defined",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.17.3.3",
+  "level": 1,
+  "block": "Behavioral Safety Culture",
+  "process": "Territorial Safety",
+  "requirement": "FLTM support service providers and contractors in their Territory",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.17.4.1",
+  "level": 1,
+  "block": "Behavioral Safety Culture",
+  "process": "Safety Recognition and Sanction Process",
+  "requirement": "Safety Recognition and Sanction Process implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.17.9.1",
+  "level": 1,
+  "block": "Behavioral Safety Culture",
+  "process": "Behavioral Safety Culture Workshop",
+  "requirement": "Behavioral Safety Workshop for all employees",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.18.1.2",
+  "level": 1,
+  "block": "Facility compliance",
+  "process": "Legal compliance",
+  "requirement": "System in place to keep track of updates and changes of Health and Safety legal requirements",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.18.1.3",
+  "level": 1,
+  "block": "Facility compliance",
+  "process": "Legal compliance",
+  "requirement": "Permits and Licenses registered in the Global Permits and Licenses tracker",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.18.1.4",
+  "level": 1,
+  "block": "Facility compliance",
+  "process": "Legal compliance",
+  "requirement": "System in place to timely require renewals of Permits and Licenses",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.1.5",
+  "level": 2,
+  "block": "Operational Safety Management",
+  "process": "Structure",
+  "requirement": "Safety Champions in place in each department, promoting safety in the department",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.10",
+  "level": 2,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "GOPs ,Toolkits and dashboards to support Risk Assessment process score = 60 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.9.5",
+  "level": 2,
+  "block": "Operational Safety Management",
+  "process": "Lifting activities",
+  "requirement": "Use of validated Home-made lifting constructions (in house constructions)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.10.1",
+  "level": 2,
+  "block": "Operational Safety Management",
+  "process": "Heat Stress Management",
+  "requirement": "Mitigate the risks for heat stress related incidents",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.11.5",
+  "level": 2,
+  "block": "Operational Safety Management",
+  "process": "Safety of Temporary workers",
+  "requirement": "Temporary Workers Safety Form sign-off by each Temporary Worker",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.2.1.8",
+  "level": 2,
+  "block": "Incident Reporting & Management",
+  "process": "Incident Reporting & Management",
+  "requirement": "Safety Alert (in local language and in English) for Fatalities, SIF actual, SIF potential and LTI as soon as the RCA has been finished an validated.",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.2.1.10",
+  "level": 2,
+  "block": "Incident Reporting & Management",
+  "process": "Incident Reporting & Management",
+  "requirement": "Incidents (including occupational illnesses) integrated into routine review process at all levels (Incident notification evidenced in team rooms, handover meetings, management meetings, etc.).",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.2.1.11",
+  "level": 2,
+  "block": "Incident Reporting & Management",
+  "process": "Incident Reporting & Management",
+  "requirement": "Implement learnings from safety alerts",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.2.1.12",
+  "level": 2,
+  "block": "Incident Reporting & Management",
+  "process": "Incident Reporting & Management",
+  "requirement": "MDI process implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.14",
+  "level": 2,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit PSM NH3 = 70 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.16",
+  "level": 2,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit SSM = 70 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.18",
+  "level": 2,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "PSM NH3 coordinator (if NH3 on site), DEPSM, SSM and ESM coordinator and committees at the facility and MCRS in place",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.19",
+  "level": 2,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "PI's to measure effectiveness of High risk programs at management and FLTM level",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.5.1.1",
+  "level": 2,
+  "block": "Material Handling and Ergonomics",
+  "process": "Material Handling and Ergonomics",
+  "requirement": "Up to date Material Handling Assessment (MHA) and Ergonomic Workstation Risk Assessment (EWRA)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.5.1.4",
+  "level": 2,
+  "block": "Material Handling and Ergonomics",
+  "process": "Material Handling and Ergonomics",
+  "requirement": "Execute a Manual Handling and ergonomic training program, supported by the SKAP process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.6.1.21",
+  "level": 2,
+  "block": "Hazardous Substances",
+  "process": "Hazardous Substances",
+  "requirement": "Execute a Hazardous substances Inspection, testing and preventive maintenance program and a detailed mechanical integrity program Ensure leak free CIP stations",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.7.1.10",
+  "level": 2,
+  "block": "LOTOTO and Machine Safety",
+  "process": "LOTOTO and Machine Safety",
+  "requirement": "SAM, LOTOTO and jogging processes included in Safety Monitoring process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.10.1.6",
+  "level": 2,
+  "block": "Confined Spaces",
+  "process": "Confined spaces entry",
+  "requirement": "Specific SOP for each Confined Space",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.10.1.7",
+  "level": 2,
+  "block": "Confined Spaces",
+  "process": "Confined spaces entry",
+  "requirement": "Confined Space Entry part of the safety monitoring routines",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.15",
+  "level": 2,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Toolbox meetings conducted (step 8)",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.13.1.7",
+  "level": 2,
+  "block": "Occupational Health",
+  "process": "Occupational Health",
+  "requirement": "Effective Technical Measures in place to mitigate the risk for occupational illnesses",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.15.1.1",
+  "level": 2,
+  "block": "Road & Driving Safety",
+  "process": "Driving company vehicles outside facility",
+  "requirement": "Employees that have to drive Company Vehicle, Leased Vehicle or Personal Vehicle for company business shall be trained in defensive driving, i",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.16.1.6",
+  "level": 2,
+  "block": "Safety Monitoring & Coaching",
+  "process": "Safety Monitoring & coaching",
+  "requirement": "Job Hazard Analysis (JHA) strategy and SOP defined and implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.16.1.7",
+  "level": 2,
+  "block": "Safety Monitoring & Coaching",
+  "process": "Safety Monitoring & coaching",
+  "requirement": "Communication of Safety Monitoring and Coaching findings",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.17.5.2",
+  "level": 2,
+  "block": "Behavioral Safety Culture",
+  "process": "Safety Communication",
+  "requirement": "Safety communication strategy implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.17.6.1",
+  "level": 2,
+  "block": "Behavioral Safety Culture",
+  "process": "Safety Behavioral Observations",
+  "requirement": "Safety Behavioral Observations program implemented for leaders",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.17.7.1",
+  "level": 2,
+  "block": "Behavioral Safety Culture",
+  "process": "Safety Campaigns",
+  "requirement": "Safety First! Health and Safety Awareness campaigns and Safety Day / week ( 28 April) implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.11",
+  "level": 3,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "Active participation of FLTM in risk assessment process",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.12",
+  "level": 3,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "GOPs ,Toolkits and dashboards to support Risk Assessment process score = 70 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.3.7",
+  "level": 3,
+  "block": "Operational Safety Management",
+  "process": "General Safety Management / Strategy",
+  "requirement": "CAPEX prioritization in compliance with global priority matrix",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.8.5",
+  "level": 3,
+  "block": "Operational Safety Management",
+  "process": "Work Permit",
+  "requirement": "Work Permits reviewed by FLTM",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.9.6",
+  "level": 3,
+  "block": "Operational Safety Management",
+  "process": "Lifting activities",
+  "requirement": "Lifting activities safety owned by the FLTM owning the territory - implementation of Territorial Safety",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.21",
+  "level": 3,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit PSM NH3= 80 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.23",
+  "level": 3,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit SSM = 80 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.24",
+  "level": 3,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit ESM = 80 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.3.1.25",
+  "level": 3,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "High Risk processes Management part of he MCRS of the facility and departments",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.5.1.2",
+  "level": 3,
+  "block": "Material Handling and Ergonomics",
+  "process": "Material Handling and Ergonomics",
+  "requirement": "Control measures in place to mitigate the risks of manual handling and ergonomic injuries",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.5.1.3",
+  "level": 3,
+  "block": "Material Handling and Ergonomics",
+  "process": "Material Handling and Ergonomics",
+  "requirement": "FLTM use the proper manual handling practices and mitigate the risks for ergonomic injuries",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.7.1.13",
+  "level": 3,
+  "block": "LOTOTO and Machine Safety",
+  "process": "LOTOTO and Machine Safety",
+  "requirement": "SAM & LOTOTO owned by equipment owner - implementation of Territorial Safety",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.8.1.15",
+  "level": 3,
+  "block": "Working at heights",
+  "process": "Working at heights",
+  "requirement": "Work at height safety owned by the FLTM owning the territory - implementation of Territorial Safety",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.10.1.8",
+  "level": 3,
+  "block": "Confined Spaces",
+  "process": "Confined spaces entry",
+  "requirement": "Confined Space safety owned by the FLTM owning the territory - implementation of Territorial Safety",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.11.1.12",
+  "level": 3,
+  "block": "Emergency Preparedness and Response",
+  "process": "Emergency Preparedness and Response",
+  "requirement": "Emergency response owned by the FLTM owning the territory - implementation of Territorial Safety",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.12.1.17",
+  "level": 3,
+  "block": "Contractor and Service Providers Management",
+  "process": "Contractor and Service Providers Management",
+  "requirement": "Contractors and Service providers integrated in the safety routines of the department",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.16.1.10",
+  "level": 3,
+  "block": "Safety Monitoring & Coaching",
+  "process": "Safety Monitoring & coaching",
+  "requirement": "Senior Management Team & Cross Departmental Safety Walk implemented",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.18.1.5",
+  "level": 3,
+  "block": "Facility compliance",
+  "process": "Legal compliance",
+  "requirement": "Legal compliance training to Leaders",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.18.1.6",
+  "level": 3,
+  "block": "Facility compliance",
+  "process": "Legal compliance",
+  "requirement": "Legal requirements and Permit & License requirements embedded in the routines and ways of working of the departments and facility",
+  "utilities": "Y"
+ },
+ {
+  "code": "R.1.1.2.13",
+  "level": 4,
+  "block": "Operational Safety Management",
+  "process": "Risk Assessment",
+  "requirement": "GOPs ,Toolkits and dashboards to support Risk Assessment process score = 80 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.1.9.7",
+  "level": 4,
+  "block": "Operational Safety Management",
+  "process": "Lifting activities",
+  "requirement": "Lifting safety managed by the FLTM owning the territory",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.3.1.27",
+  "level": 4,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit PSM NH3 = 90 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.3.1.29",
+  "level": 4,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit SSM = 90 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.3.1.30",
+  "level": 4,
+  "block": "High Risk Processes Management",
+  "process": "General",
+  "requirement": "Scores Toolkit ESM = 90 % or higher and glidepaths defined to close the identified gaps",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.5.1.5",
+  "level": 4,
+  "block": "Material Handling and Ergonomics",
+  "process": "Material Handling and Ergonomics",
+  "requirement": "FLTM active involvement in mitigating material handling and ergonomic risks",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.7.1.15",
+  "level": 4,
+  "block": "LOTOTO and Machine Safety",
+  "process": "LOTOTO and Machine Safety",
+  "requirement": "All level 1 and 2 machines (see Global Heat Map) shall comply with GTS.GEN.SFT.GSP.007 Machine Safety standard",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.7.1.16",
+  "level": 4,
+  "block": "LOTOTO and Machine Safety",
+  "process": "LOTOTO and Machine Safety",
+  "requirement": "Specific SAM / LOTOTO equipment available for the critical equipment",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.8.1.16",
+  "level": 4,
+  "block": "Working at heights",
+  "process": "Working at heights",
+  "requirement": "Working at height safety managed by the FLTM owning the territory",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.10.1.9",
+  "level": 4,
+  "block": "Confined Spaces",
+  "process": "Confined spaces entry",
+  "requirement": "Confined space safety managed by the FLTM owning the territory",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.11.1.14",
+  "level": 4,
+  "block": "Emergency Preparedness and Response",
+  "process": "Emergency Preparedness and Response",
+  "requirement": "Emergency Response managed by the FLTM owning the territory",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.16.1.11",
+  "level": 4,
+  "block": "Safety Monitoring & Coaching",
+  "process": "Safety Monitoring & coaching",
+  "requirement": "Peer to peer coaching (Safety Behavioral Observations) and FLTM ownership of safety monitoring",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.16.1.12",
+  "level": 4,
+  "block": "Safety Monitoring & Coaching",
+  "process": "Safety Monitoring & coaching",
+  "requirement": "Use of technology to optimize Safety Monitoring and Coaching process: to capture, document and manage unsafe conditions and safe and unsafe behaviors",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.17.9.9",
+  "level": 4,
+  "block": "Behavioral Safety Culture",
+  "process": "Behavioral Safety Culture Workshop",
+  "requirement": "Global Safety Policy owned by FLTM",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.17.9.11",
+  "level": 4,
+  "block": "Behavioral Safety Culture",
+  "process": "Behavioral Safety Culture Workshop",
+  "requirement": "Humans factors concept applied",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.17.9.12",
+  "level": 4,
+  "block": "Behavioral Safety Culture",
+  "process": "Behavioral Safety Culture Workshop",
+  "requirement": "Territorial Safety implemented level 3",
+  "utilities": "N"
+ },
+ {
+  "code": "R.1.18.1.7",
+  "level": 4,
+  "block": "Facility compliance",
+  "process": "Legal compliance",
+  "requirement": "Legal compliance ownership by departments and FLTM",
+  "utilities": "N"
+ }
+]

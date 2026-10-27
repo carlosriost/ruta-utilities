@@ -1,0 +1,26 @@
+rules_version = '2';
+
+// Reglas de Firestore para el avance compartido de la version GitHub Pages.
+// Pegar en Firebase Console > Firestore Database > Reglas > Publicar.
+//
+// Cualquiera con el link puede leer y marcar temas (no hay inicio de sesion),
+// pero solo en este documento y solo con la forma que espera la aplicacion.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /ruta-utilities/progreso {
+      allow read: if true;
+      allow write: if request.resource.data.keys().hasOnly(['metCodes', 'badges', 'started_at'])
+        && (!('metCodes' in request.resource.data) || (request.resource.data.metCodes is list
+            && request.resource.data.metCodes.size() <= 500))
+        && (!('badges' in request.resource.data) || (request.resource.data.badges is map
+            && request.resource.data.badges.size() <= 20))
+        && (!('started_at' in request.resource.data) || request.resource.data.started_at == null
+            || request.resource.data.started_at is string);
+    }
+
+    // Todo lo demas queda cerrado.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
